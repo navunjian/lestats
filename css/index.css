@@ -248,6 +248,7 @@ p {
   text-decoration: none;
   font-size:22px;
   letter-spacing: 1px;
+
 }
 
 #logo {
@@ -392,10 +393,12 @@ p {
 /*CSS for contact form*/
 #page-wrap {
 
+
   width: 66%;
   background: white;
   padding: 25px;
   margin-right: 130px;
+
   min-height: 500px;
   float: right;
   height: auto !important;
