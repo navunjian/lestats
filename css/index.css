@@ -447,4 +447,23 @@ label {
   font-size: 1.4em;
 }
 
+#page-story {
+
+
+  width: 66%;
+  background: #333;
+  opacity: .85;
+  padding: 25px;
+  margin-right: 130px;
+
+  min-height: 500px;
+  float: right;
+  height: auto !important;
+  height: 500px;
+  font-family: 'Raleway', serif;
+  color: white;
+}
+
+
+
 
