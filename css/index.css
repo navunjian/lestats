@@ -464,10 +464,8 @@ ul#nav-ul {
   text-align: center;
   font-size: 20px;
   color: white;
-<<<<<<< Updated upstream
   font-weight: 100;
-=======
->>>>>>> Stashed changes
+
 }
 
 #contact-text-container{
@@ -552,6 +550,15 @@ ul#nav-ul {
     list-style: none;
 }
 
+#menu-single-cold li {
+  font-family: 'Lato';
+    font-weight: 100;
+    font-size: 17px;
+    margin-left: 65%;
+    text-decoration: none;
+    list-style: none;
+}
+
 #menu-names li{
     font-weight: 300;
      font-family: 'Lato';
@@ -561,6 +568,20 @@ ul#nav-ul {
     list-style: none;
 }
 
+#menu-names-tea li{
+    font-weight: 300;
+    font-family: 'Lato';
+    font-size: 17px;
+    margin-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align:center;
+}
+
+#teablurb{
+  font-weight: 500;
+  font-size: 20px;
+}
 
 #menu-right{
     width: 50%;
@@ -749,6 +770,9 @@ background-color:black;
 
 }
 
+.speciality {
+  font-weight: bold;
+}
 
 
 label {
