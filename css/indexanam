@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Rokkitt);
+
+body {
+  background-color:#E0F0FF;
+}
+
+
+
+#logo {
+  position:absolute;
+  top:350px;
+  margin-left:67px;
+}
+
+#footer {
+  background-color:#150905;
+  height:170px;
+  margin-top:480px;
+  width:1376px;
+  left:0;
+  right:0;
+  margin-left:-10px;
+  margin-bottom:-10px;
+  -webkit-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
+  -moz-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
+  box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
+  position:fixed;
+  bottom:0;
+}
+
+#parksfooter {
+  margin-left:110px;
+  margin-top:18px;
+  width:275px;
+  height:100px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+#open {
+  font-family:'Rokkitt', serif;
+  font-size:18px;
+  font-weight: lighter;
+  letter-spacing: 1pt;
+  color:#8B0000;
+}
+
+#adamsfooter {
+  font-weight: bold;
+  color:white;
+  margin-left:545px;
+  width:275px;
+  height:100px;
+  margin-top:-113px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+#socialmedia {
+  color:white;
+  margin-left:975px;
+  width:275px;
+  height:100px;
+  margin-top:-120px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family:'Rokkitt', serif;
+  font-size:15px;
+}
+
+.footertext {
+  font-size: 16px;
+  font-family:'Rokkitt', serif;
+  font-weight: 400;
+}
+
+#navborder {
+  background-color: #333;
+  position:absolute;
+  margin-top:0px;
+  margin-left:30px;
+  width:12em;
+  height:460px;
+  border:solid 1px #150905;
+}
+
+#fixed-nav {
+  opacity: 0.85;
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+  
+}
+
+#fixed-nav li {
+  font: 14px 'Rokkitt', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#fixed-nav a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#fixed-nav a:hover {
+  background: #8B0000 url('hover.gif') left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+
+#hovnav area:focus{
+    outline-width: 0px;
+    text-decoration:none;
+    border-style: none;
+}
+
+area{border:none; outline:none;}
+
+#icon_nav {
+  margin-left:500px;
+  margin-top:-10px;
+  position:absolute;
+}
+
+
+#drink_link {
+  display:inline-block;
+  margin-left:400px;
+  color:#87b51d;
+  font-family:'Quicksand', cursive; 
+  text-decoration: none;
+  outline: none;
+  font-size:30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 30px;
+    color: #FF9F00
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
