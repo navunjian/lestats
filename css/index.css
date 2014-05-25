@@ -460,7 +460,10 @@ ul#nav-ul {
   text-align: center;
   font-size: 20px;
   color: white;
+<<<<<<< Updated upstream
   font-weight: 100;
+=======
+>>>>>>> Stashed changes
 }
 
 #contact-text-container{
@@ -670,6 +673,12 @@ background-color:black;
   opacity: .85;
 }
 
+#contact-wrap {
+  width:60%;
+  background: #333;
+  opacity: .85;
+}
+
 #contact-left{
     width: 40%;
     min-width: 400px;
@@ -687,12 +696,19 @@ background-color:black;
     margin-left: 30px;
     display: inline;
     position: absolute;
+    min-height: 700px;
+    text-align: center;
+
 }
 
 #contactlestats{
   margin-top; 20px;
 }
+
 #contact-area {
+  width: 500px;
+  margin-top: 5px;
+  padding: 20px 10px 20px 0px;
   min-height: 500px;
   height: auto !important;
   font-family: 'Lato';
@@ -724,8 +740,9 @@ background-color:black;
 
 #contact-area input.submit-button {
   width: 100px;
-  float: right;
-  margin-right: 90px;
+  float:right;
+  margin-right: 123px;
+
 }
 
 
