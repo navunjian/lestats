@@ -9,7 +9,7 @@ body {
 #logo {
   position:absolute;
   top:350px;
-  margin-left:97px;
+  margin-left:67px;
 }
 
 #footer {
@@ -80,11 +80,11 @@ body {
 }
 
 #navborder {
-  background-color: white;
+  background-color: #333;
   position:absolute;
   margin-top:0px;
-  margin-left:60px;
-  width:180px;
+  margin-left:30px;
+  width:12em;
   height:460px;
   border:solid 1px #150905;
 }
