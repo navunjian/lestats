@@ -139,6 +139,10 @@ p {
     z-index: -100;
 }
 
+.active{
+  color: #7A2626;
+}
+
 #homepage-pattern{
     background: url('http://d1fki99wqld33s.cloudfront.net/assets/net.png') repeat scroll 0% 0% transparent;
     background-color: transparent;
