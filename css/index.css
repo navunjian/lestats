@@ -478,6 +478,13 @@ ul#nav-ul {
   font-family:'Lato', serif;
 }
 
+.menucontent-bfast {
+  margin: 0 auto;
+  font-size: 40pt;
+  font-family:'Lato', serif;
+  text-align: center;
+}
+
 .shotcontainer{
     
 }
@@ -547,6 +554,17 @@ ul#nav-ul {
     list-style: none;
 }
 
+#menu-single-brk li {
+    font-family: 'Lato';
+    font-weight: 200;
+    font-size: 17px;
+    margin-right: 30%;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+
+}
+
 #menu-single-cold li {
   font-family: 'Lato';
     font-weight: 100;
@@ -559,16 +577,27 @@ ul#nav-ul {
 #menu-names li{
     font-weight: 300;
      font-family: 'Lato';
-    font-size: 17px;
+    font-size: 18px;
     margin-left: 30px;
     text-decoration: none;
     list-style: none;
 }
 
+#menu-names-bfast li{
+   font-weight: 300;
+   font-family: 'Lato';
+   font-size: 18px;
+   text-decoration: none;
+   list-style: none;
+   text-align: center;
+   padding: 0px 100px 0px 100px;
+
+}
+
 #menu-names-tea li{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 17px;
+    font-size: 18px;
     margin-left: 0px;
     text-decoration: none;
     list-style: none;
@@ -854,11 +883,14 @@ h2 {
 }
 
 .sandec{
-  font-weight: 300;
+    font-weight: 300;
     font-family: 'Lato';
     font-size: 16px;
     font-style: italic;
     list-style: none;
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 #gotodrinks {
