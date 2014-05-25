@@ -400,9 +400,11 @@ p {
 
 
   width: 66%;
-  background: white;
+  background: #333;
+  opacity: .85;
   padding: 25px;
   margin-right: 130px;
+  color:white;
 
   min-height: 500px;
   float: right;
