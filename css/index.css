@@ -143,7 +143,7 @@ p {
     text-align: center;
 }
 
-ul#nav-ul {
+#nav-ul ul {
     list-style: none;
     padding:0;
     margin:0 auto;
@@ -583,6 +583,20 @@ ul#nav-ul {
     list-style: none;
 }
 
+#menu-names-tea li{
+    font-weight: 300;
+    font-family: 'Lato';
+    font-size: 17px;
+    margin-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align:center;
+}
+
+#teablurb{
+  font-weight: 500;
+  font-size: 20px;
+}
 
 #menu-names-bfast li{
    font-weight: 300;
@@ -597,7 +611,6 @@ ul#nav-ul {
     font-weight: 300;
     font-family: 'Lato';
     font-size: 16px;
-
     margin-left: 0px;
     text-decoration: none;
     list-style: none;
