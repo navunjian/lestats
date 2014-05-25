@@ -203,12 +203,13 @@ p {
   width:180px;
   height:500px;
   border:solid 6px #150905;
+
 }
 
 #logo {
   position:fixed;
   top:350px;
-  margin-left:97px;
+  margin-left:67px;
 }
 
 #footer {
@@ -385,7 +386,7 @@ p {
   font-weight: bold;
 }
 
-<<<<<<< Updated upstream
+
 .drink_desc {
   font-size: 16px;
   font-family:'Quicksand', cursive;
@@ -406,6 +407,7 @@ p {
     
 /*CSS for contact form*/
 #page-wrap {
+
   width: 66%;
   background: white;
   padding: 25px;
