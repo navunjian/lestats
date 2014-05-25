@@ -2,220 +2,55 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>GSU: Academics</title>
+  <title>Lestat's</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
   <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Carme'>
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/lightbox-2.6.min.js"></script>
+  <script language="javascript">
+    hotdrinks = new Image(700,175);
+    hotdrinks.src = "./img/hothover.png";
+    colddrinks = new Image(700,175);
+    colddrinks.src = "./img/coldhover.png";
+    specialty = new Image(700,175);
+    specialty.src = "./img/specialdrink.png";
+    tea = new Image(700,175);
+    tea.src = "./img/teadrink.png";
+    og = new Image(700,175);
+    og.src = "./img/main_nav.png";
+  </script>
+  <script language="javascript">
+    function hothover() {
+    document.emp.src = hotdrinks.src; return true;
+    }
+    function coldhover() {
+    document.emp.src = colddrinks.src; return true;
+    }
+    function specialhover() {
+    document.emp.src = specialty.src; return true; 
+    }
+    function teahover() {
+    document.emp.src = tea.src; return true; 
+    }
+    function original() {
+    document.emp.src = og.src; return true; 
+    }
+  </script> 
 </head>
 
 <body>
-	<div id="bod">
-	    <div class="header">
-              <div class="offset-header">
-                <form class="form-inline">
-                  <input type="text" name="search" title="Search" class="search-input" 
-    value="Search" onfocus="inputFocus(this)" onblur="inputBlur(this)" /></input>
-                  <button type="submit" class="btn"><img src="img/search_small2.png"></button>
-                </form>
-              </div>
-        </div>
+  <img name="emp" SRC="./img/main_nav.png" USEMAP="#hovnav">
+  <map id="#hovnav" name="hovnav">
+    <area shape="rect" alt="hotdrink" onMouseOver= "hothover()" onMouseOut="original()" coords="88,53,143,124" href="hotdrinks.html"  />
+    <area shape="rect" alt="colddrink" onMouseOver= "coldhover()" onMouseOut="original()" coords="234,51,289,123" href="colddrinks.html" />
+    <area shape="rect" alt="specialty" onMouseOver= "specialhover()" onMouseOut="original()"coords="403,40,440,123" href="specialties.html" />
+    <area shape="rect" alt="tealist" onMouseOver= "teahover()" onMouseOut="original()" coords="544,59,599,123" href="tealist.html" />
+  </map>
 
-	    <div class="logo">
-	    	<img href="home.html" src="images/logo.png" width="285" height="180"/>
-	    </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
 
-	    <div class="mainimages">
-	    	<img href="academic.html" src="images/academics_one.jpg">
-	    </div>
-	    
-	    	<div id="navigation">
-				<ul class="navList">
-					<li id="navLink0"><a class="navLink" href="">About</a>
-						<ul class="dropDown" id="dropDown1">
-				    		<li><a href="#">History</a></li>
-				    		<li><a href="#">Facts</a></li>
-				    		<li><a href="#">Administration</a></li>
-				    		<li><a href="#">Principles</a></li>
-				    		<li><a href="#">Visiting GSU</a></li>
-			    		</ul>
-			    	</li>
-					<li id="navLink1"><a class="navLink" href="">Admissions</a>
-			   		    <ul class="dropDown" id="dropDown2">
-				    		<li><a href="#">Undergraduate Admissions</a></li>
-				    		<li><a href="#">Graduate Studies</a></li>
-				    		<li><a href="#">Financial Aid & Scholarships</a></li>
-			    		</ul>
-            		</li>
-					<li id="navLink2"><a class="navLink" href="">Academics</a>
-			    		<ul class="dropDown" id="dropDown3">
-				    		<li><a href="#">Undergraduate Education</a></li>
-			          		<li><a href="#">Graduate Programs</a></li>
-			     	  		<li><a href="#">Advising and Counseling</a></li>
-			          		<li><a href="#">Schools and Colleges</a></li>
-			          		<li><a href="#">Academic Resources</a></li>
-			          		<li><a href="#">Course Catalog</a></li>
-			    		</ul>
-            		</li>
-					<li id="navLink3"><a class="navLink" href="">Campus Life</a>
-						<ul class="dropDown" id="dropDown4">
-							<li><a href="#">Student Life</a></li>
-			          		<li><a href="#">News</a></li>
-			          		<li><a href="#">Athletics</a></li>
-			          		<li><a href="#">Events</a></li>
-			    		</ul>
-			    	</li>
-			    	<li id="navLink4"><a class="navLink" href="">Research</a>
-						<ul class="dropDown" id="dropDown5">
-							<li><a href="#">Institutes</a></li>
-				    		<li><a href="#">Research Resources</a></li>
-				    		<li><a href="#">Labs, Centers and Programs</a></li>
-				    		<li><a href="#">News and Events</a></li>
-			    		</ul>
-			    	</li>
-			    </ul>
-			</div>
-
-	   
-	    	<div id="fixed-nav">
-		    	<ul>
-			 		  <li id="navtop">
-			    		<p href="#">ACADEMICS</p>
-			    	  </li>
-			          <li><a href="#">Undergraduate Education</a></li>
-			          <li><a href="#">Graduate Programs</a></li>
-			     	  <li><a href="#">Advising and Counseling</a></li>
-			          <li><a href="#">Schools and Colleges</a></li>
-			          <li><a href="#">Academic Resources</a></li>
-			          <li><a href="#">Course Catalog</a></li>
-		    	</ul>
-	    	</div>
-	  	
-<div class="bluebox">
-    <div class="container">
-      
-        <div class="span4 span-inherit">
-          <div class="topmenu topmenu_news">
-            <div class="news-inner">    
-                <div class="imgWrap">
-                    <h1>Undergraduate Education </h1>
-                    <img class="thumbnail" src="img/news3.jpg" alt="" />
-                    <a href=""><img src="images/degrees.jpg"></a>
-                    <ul>
-                    	<li class = "boxlists"><a href="">Degrees and Majors</a></li>
-                    	<li class = "boxlists"><a href="">Programs</a></li>
-                    	<li class = "boxlists"><a href="">Class Registration</a></li>
-                    	<li class = "boxlists"><a href="">Academic Calendars</a></li>
-                    	<li class = "boxlists"><a href="">Student Handbook</a></li>
-                    	<li class = "boxlists"><a href="">GPA Calculator</a></li>
-                    	<li class = "boxlists"><a href=""> + more...</a></li>
-
-                    </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="topmenu topmenu_news">
-            <div class="news-inner">
-                <div class="imgWrap">
-                    <a href=""><img src="images/graduate.jpg"></a>
-                    <ul>
-                    	<li class = "boxlists"><a href="">Programs</a></li>
-                    	<li class = "boxlists"><a href="">Financial Aid</a></li>
-                    	<li class = "boxlists"><a href="">Tuition and Fees</a></li>
-                    	<li class = "boxlists"><a href="">Admission Requirements</a></li>
-                    	<li class = "boxlists"><a href=""> + more...</a></li>
-
-
-                    </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="topmenu topmenu_news">
-            <div class="news-inner">
-               <div class="imgWrap">
-                    <a href=""><img src="images/advise.jpg"></a>
-                    <ul>
-                    	<li class = "boxlists"><a href="">Advising Tools & Tips</a></li>
-                    	<li class = "boxlists"><a href="">Transfer Students</a></li>
-                    	<li class = "boxlists"><a href="">Freshman</a></li>
-                    	<li class = "boxlists"><a href="">Sophomore</a></li>
-                    	<li class = "boxlists"><a href="">Juniors</a></li>
-                    	<li class = "boxlists"><a href="">Seniors</a></li>
-                    	<li class = "boxlists"><a href="degrees.html"> + more...</a></li>
-
-                    </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="clearit">
-        </div>
-    </div>
-
-    <div class="container">
-        
-        <div class="span4 span-inherit">
-          <div class="topmenu topmenu_news">
-
-            <div class="imgWrap">
-                    <a href="degrees.html"><img src="images/resources.jpg"></a>
-                    <ul>
-                    	<li class = "boxlists"><a href="#">Scholarships</a></li>
-                    	<li class = "boxlists"><a href="#">Student Success</a></li>
-                    	<li class = "boxlists"><a href="#">Tuition and Payments</a></li>
-                    	<li class = "boxlists"><a href="#">Registration Info</a></li>
-                    	<li class = "boxlists"><a href="degrees.html"> + more...</a></li>
-                    </ul>
-                </div>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="topmenu topmenu_news">
-            <div class="news-inner">
-
-            	 <div class="imgWrap">
-                    <a href=""><img src="images/colleges.jpg"></a>
-                    <ul>
-                    	<li class = "boxlists"><a href="">Andrew Young School of Policy Studies</a></li>
-                    	<li class = "boxlists"><a href="">School of Nursing</a></li>
-                    	<li class = "boxlists"><a href="">College of Arts and Sciences</a></li>
-                    	<li class = "boxlists"><a href="">College of Law</a></li>
-                    	<li class = "boxlists"><a href="">Honors College</a></li>
-                    	<li class = "boxlists"><a href=""> + more</a></li>
-                   </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="span4">
-          <div class="topmenu topmenu_news">
-            <div class="news-inner">
-                <div class="imgWrap">
-                    <a href=""><img src="images/catalog.jpg"></a>
-                    <ul>
-                    	<li class = "boxlists"><a href="">University Catalog</a></li>
-                   
-                    </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="clearit">
-        </div>
-
-    </div>
-   </div>
-
-    
-</div>
-   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/toggle.js"></script>
 </body>
 </html>
