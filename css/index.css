@@ -845,6 +845,22 @@ h2 {
     visibility:hidden;  
 }
 
+.sandtitle {
+    font-weight: 500;
+    font-family: 'Lato';
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sandec{
+  font-weight: 300;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: italic;
+    list-style: none;
+}
+
 #gotodrinks {
     text-decoration: none;
     margin-left: 30px;
