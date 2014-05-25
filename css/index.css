@@ -552,6 +552,7 @@ ul#nav-ul {
     list-style: none;
 }
 
+
 #menu-single-brk li {
     font-family: 'Lato';
     font-weight: 200;
@@ -562,6 +563,7 @@ ul#nav-ul {
     text-align: right;
 
 }
+
 
 #menu-single-cold li {
   font-family: 'Lato';
@@ -581,10 +583,11 @@ ul#nav-ul {
     list-style: none;
 }
 
+
 #menu-names-bfast li{
    font-weight: 300;
    font-family: 'Lato';
-   font-size: 16px;
+   font-size: 17px;
    text-decoration: none;
    list-style: none;
 
@@ -593,7 +596,8 @@ ul#nav-ul {
 #menu-names-tea li{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 17px;
+
     margin-left: 0px;
     text-decoration: none;
     list-style: none;
@@ -601,8 +605,8 @@ ul#nav-ul {
 }
 
 #teablurb{
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 #menu-right{
@@ -899,7 +903,7 @@ h2 {
 .sandec{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 16px;
     font-style: italic;
     list-style: none;
     width: 300px;
