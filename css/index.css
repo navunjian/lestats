@@ -5,17 +5,17 @@ body {
 #navborder {
   background-color:white;
   position:absolute;
-  top:0;
-  margin-left:50px;
+  margin-top:15px;
+  margin-left:60px;
   width:180px;
   height:460px;
-  border:solid 5px #150905;
+  border:solid 6px #150905;
 }
 
 #logo {
   position:absolute;
-  top:340px;
-  margin-left:85px;
+  top:350px;
+  margin-left:97px;
 }
 
 #footer {
@@ -35,7 +35,7 @@ body {
 }
 
 #parksfooter {
-  margin-left:100px;
+  margin-left:110px;
   margin-top:18px;
   width:275px;
   height:100px;
@@ -57,7 +57,7 @@ body {
 #adamsfooter {
   font-weight: bold;
   color:white;
-  margin-left:530px;
+  margin-left:545px;
   width:275px;
   height:100px;
   margin-top:-113px;
@@ -68,7 +68,7 @@ body {
 
 #socialmedia {
   color:white;
-  margin-left:925px;
+  margin-left:975px;
   width:275px;
   height:100px;
   margin-top:-120px;
@@ -119,5 +119,18 @@ body {
 
 #icon_nav {
   margin-left:500px;
-  margin-top:100px;
+  margin-top:-10px;
+}
+
+
+#drink_link {
+  display:inline-block;
+  margin-left:400px;
+  color:#87b51d;
+  font-family:'Quicksand', cursive; 
+  text-decoration: none;
+  outline: none;
+  font-size:30px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
