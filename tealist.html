@@ -4,19 +4,54 @@
   <meta charset="utf-8">
   <title>Lestat's</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+  <link type="text/css" rel="stylesheet" href="css/index.css">
   <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Carme'>
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/lightbox-2.6.min.js"></script>
-  
- <body>
-  <h1>HOT DRINKS </h1>
 
-    
+  <script language="javascript">
+    hotdrinks = new Image(700,175);
+    hotdrinks.src = "./img/hothover.png";
+    colddrinks = new Image(700,175);
+    colddrinks.src = "./img/coldhover.png";
+    specialty = new Image(700,175);
+    specialty.src = "./img/specialdrink.png";
+    tea = new Image(700,175);
+    tea.src = "./img/teadrink.png";
+    og = new Image(700,175);
+    og.src = "./img/main_nav.png";
+  </script>
+  <script language="javascript">
+    function hothover() {
+    document.emp.src = hotdrinks.src; return true;
+    }
+    function coldhover() {
+    document.emp.src = colddrinks.src; return true;
+    }
+    function specialhover() {
+    document.emp.src = specialty.src; return true; 
+    }
+    function teahover() {
+    document.emp.src = tea.src; return true; 
+    }
+    function original() {
+    document.emp.src = og.src; return true; 
+    }
+  </script> 
+</head>
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="https://code.jquery.com/jquery.js"></script>
+<body>
+  <img name="emp" SRC="./img/main_nav.png" USEMAP="#hovnav">
+  <map id="#hovnav" name="hovnav">
+    <area shape="rect" alt="hotdrink" onMouseOver= "hothover()" onMouseOut="original()" coords="88,53,143,124" href="hotdrinks.html"  />
+    <area shape="rect" alt="colddrink" onMouseOver= "coldhover()" onMouseOut="original()" coords="234,51,289,123" href="colddrinks.html" />
+    <area shape="rect" alt="specialty" onMouseOver= "specialhover()" onMouseOut="original()"coords="403,40,440,123" href="specialties.html" />
+    <area shape="rect" alt="tealist" onMouseOver= "teahover()" onMouseOut="original()" coords="544,59,599,123" href="tealist.html" />
+  </map>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
 
 </body>
 </html>
