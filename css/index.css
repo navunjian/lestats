@@ -91,6 +91,14 @@ body {
   text-align: center;
 }
 
+#hovnav area:focus{
+    outline-width: 0px;
+    text-decoration:none;
+    border-style: none;
+}
+
+area{border:none; outline:none;}
+
 #fixed-nav li {
   margin-left:2px;
   list-style: none;
