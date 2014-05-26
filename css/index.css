@@ -1,34 +1,123 @@
+body {
+  background-color:#E0F0FF;
+}
+
+#navborder {
+  background-color:white;
+  position:absolute;
+  top:0;
+  margin-left:50px;
+  width:180px;
+  height:460px;
+  border:solid 5px #150905;
+}
+
+#logo {
+  position:absolute;
+  top:340px;
+  margin-left:85px;
+}
+
+#footer {
+  background-color:#150905;
+  height:170px;
+  margin-top:480px;
+  width:1376px;
+  left:0;
+  right:0;
+  margin-left:-10px;
+  margin-bottom:-10px;
+  -webkit-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
+  -moz-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
+  box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
+  position:fixed;
+  bottom:0;
+}
+
+#parksfooter {
+  margin-left:100px;
+  margin-top:18px;
+  width:275px;
+  height:100px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+#open {
+  font-family:'Quicksand',cursive;
+  font-size:18px;
+  font-weight: lighter;
+  letter-spacing: 1pt;
+  color:#87b51d;
+}
+
+#adamsfooter {
+  font-weight: bold;
+  color:white;
+  margin-left:530px;
+  width:275px;
+  height:100px;
+  margin-top:-113px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+#socialmedia {
+  color:white;
+  margin-left:925px;
+  width:275px;
+  height:100px;
+  margin-top:-120px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family:'Quicksand',cursive;
+  font-size:15px;
+}
+
+.footertext {
+  font-size: 16px;
+  font-family:'Quicksand',cursive;
+}
+
 #fixed-nav {
   list-style:none;
   position:absolute;
-  top:210px;
-  margin-left:-45px;
+  top:5px;
+  text-align: center;
 }
 
 #fixed-nav li {
-  margin-bottom: 0px;
+  margin-left:2px;
   list-style: none;
 }
 
 #fixed-nav a {
-  border-left:20px solid #F0F0F0 ;
-  background-color:#E0EBFF;
-  color:gray;
+  background-color: white;
+  color:#87b51d;
   display: block;
-  padding-top: 14px;
+  padding-top: 20px;
   margin-top:2px;
+  margin-right:10px;
   margin-bottom:2px;
-  padding-bottom: 14px;
-  padding-right:15px;
-  padding-left:30px;
-  font-family: Oswald, sans-serif;
+  padding-bottom: 10px;
+  font-family:'Quicksand',cursive; 
   text-decoration: none;
-  font-size:20px;
-  letter-spacing: 1.5px;
+  font-size:22px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 #fixed-nav a:hover {
-  background-color: #888888;
-  color:white;
+  background-color: white;
   display:block;
+}
+
+#icon_nav {
+  margin-left:500px;
+  margin-top:100px;
 }
