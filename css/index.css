@@ -137,10 +137,7 @@ body {
   letter-spacing: 1px;
 }
 
-#containerc {
-  margin-left: 100px;
-}
-
+/*CSS for contact form*/
 #page-wrap {
   width: 660px;
   background: white;
@@ -149,6 +146,7 @@ body {
   min-height: 500px;
   height: auto !important;
   height: 500px;
+  font-family: 'Quicksand', cursive;
 }
 
 #contact-area {
@@ -159,7 +157,7 @@ body {
 #contact-area input, #contact-area textarea {
   padding: 5px;
   width: 471px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Quicksand', cursive;
   font-size: 1.4em;
   margin: 0px 0px 10px 0px;
   border: 2px solid #ccc;
@@ -186,3 +184,5 @@ label {
   padding-top: 5px;
   font-size: 1.4em;
 }
+
+/*end CSS for contact form*/
