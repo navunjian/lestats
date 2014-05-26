@@ -2,15 +2,7 @@ body {
   background-color:#E0F0FF;
 }
 
-#navborder {
-  background-color:white;
-  position:absolute;
-  margin-top:5px;
-  margin-left:60px;
-  width:180px;
-  height:460px;
-  border:solid 6px #150905;
-}
+
 
 #logo {
   position:absolute;
@@ -84,12 +76,50 @@ body {
   font-family:'Quicksand',cursive;
 }
 
-#fixed-nav {
-  list-style:none;
+#navborder {
+  background-color: white;
   position:absolute;
-  top:5px;
+  margin-top:0px;
+  margin-left:60px;
+  width:180px;
+  height:460px;
+  border:solid 1px #150905;
+}
+
+#fixed-nav {
+  opacity: 0.85;
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+  
+}
+
+#fixed-nav li {
+  font: 14px 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   text-align: center;
 }
+#fixed-nav a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#fixed-nav a:hover {
+  background: #2580a2 url('hover.gif') left center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
 
 #hovnav area:focus{
     outline-width: 0px;
@@ -98,32 +128,6 @@ body {
 }
 
 area{border:none; outline:none;}
-
-#fixed-nav li {
-  margin-left:2px;
-  list-style: none;
-}
-
-#fixed-nav a {
-  background-color: white;
-  color:#87b51d;
-  display: block;
-  padding-top: 20px;
-  margin-top:2px;
-  margin-right:10px;
-  margin-bottom:2px;
-  padding-bottom: 10px;
-  font-family:'Quicksand',cursive; 
-  text-decoration: none;
-  font-size:22px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-#fixed-nav a:hover {
-  background-color: white;
-  display:block;
-}
 
 #icon_nav {
   margin-left:500px;
@@ -143,3 +147,30 @@ area{border:none; outline:none;}
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
