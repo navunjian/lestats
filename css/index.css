@@ -32,6 +32,8 @@ p {
     float: right;
     width: 66%;
     margin: auto 100px;
+    background-color: white;
+    padding: 25px;
 }
 
 #events-header h1, p{
@@ -269,6 +271,7 @@ label {
 }
 
 /*end CSS for contact form*/
+<<<<<<< Updated upstream
 
 #events-body {
     float: right;
@@ -324,3 +327,5 @@ p {
     text-align: center;
 }
 
+=======
+>>>>>>> Stashed changes
