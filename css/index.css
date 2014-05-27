@@ -64,6 +64,7 @@ p {
   margin-top:180px;
   margin-left:380px;
   float:left;
+  position:fixed;
 }
 
 #homeimage {
@@ -71,12 +72,14 @@ p {
   float:right;
   position:fixed;
   margin-left:530px;
+  position:fixed;
 }
 
 #adamsimg {
   margin-top:180px;
   float:right;
-  margin-right:190px;
+  position:fixed;
+  margin-left:850px;
 }
 
 #adamsimg img, #parkimg img {
@@ -89,11 +92,49 @@ p {
   text-align: center;
 }
 
+#drink_link  {
+  float:left;
+  margin-left:450px;
+  margin-top:350px;
+}
+
+#food_link {
+  float:right;
+  margin-top:355px;
+  margin-left:895px;
+  position:fixed;
+}
+
+#food_link a {
+  text-decoration: none;
+  color:#87b51d;
+  font-family:'Quicksand', cursive; 
+  font-size:30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#drink_link a {
+  text-decoration: none;
+  color:#87b51d;
+  font-family:'Quicksand', cursive; 
+  font-size:30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#main {
+  margin-left:370px;
+  margin-top: 30px;
+  position:fixed;
+  border:solid #fff 20px;
+}
+
 #navborder {
-  opacity: .85;
+  opacity: .75;
   background-color: #333;
-  position:absolute;
-  margin-top:5px;
+  position:fixed;
+  margin-top:-10px;
   margin-left:60px;
   width:180px;
   height:460px;
@@ -101,7 +142,7 @@ p {
 }
 
 #logo {
-  position:absolute;
+  position:fixed;
   top:350px;
   margin-left:97px;
 }
@@ -204,21 +245,9 @@ p {
 #icon_nav {
   margin-left:500px;
   margin-top:-10px;
-  position:absolute;
+  position:fixed;
 }
 
-
-#drink_link {
-  display:inline-block;
-  margin-left:400px;
-  color:#87b51d;
-  font-family:'Quicksand', cursive; 
-  text-decoration: none;
-  outline: none;
-  font-size:30px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
 
 /*CSS for contact form*/
 #page-wrap {
