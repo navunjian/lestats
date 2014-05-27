@@ -1,10 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
   background-color:#E0F0FF;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Dancing Script";
+    font-family: 'Bitter';
+    font-weight: 700;
     text-align: center;
 }
 
@@ -21,7 +28,8 @@ h6 {
 }
 
 p {
-    font-family: 'Quicksand';
+    font-family: 'Raleway';
+    font-weight: 400;
 }
 
 .scrollup {
@@ -37,10 +45,22 @@ p {
 }
 
 .page-header {
-  font-family: "Quicksand";
+  font-family: "Raleway";
   text-align: center;
   font-size: 30px;
 }
+
+#homepage-bg{
+    background-image: url(img/lestatsonpark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    margin: 0px;
+    z-index: -100;
+}
+
 
 #event-body {
     float: right;
@@ -70,13 +90,9 @@ p {
     position: fixed;
 }
 
-#location{
-    margin-top: -30px;
-}
-
 #events-content h3, #events-content h6{
     text-align: left;
-    font-family: 'Rokkitt';
+    font-family: 'Raleway';
     font-weight: 400;
     margin: 0px;
 }
@@ -172,7 +188,7 @@ p {
 #food_link a {
   text-decoration: none;
   color:#87b51d;
-  font-family:'Quicksand', cursive; 
+  font-family:'Raleway', serif; 
   font-size:30px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -181,7 +197,7 @@ p {
 #drink_link a {
   text-decoration: none;
   color:#87b51d;
-  font-family:'Quicksand', cursive; 
+  font-family:'Raleway', serif; 
   font-size:30px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -198,12 +214,28 @@ p {
   opacity: .75;
   background-color: #333;
   position:fixed;
-  margin-top:-10px;
-  margin-left:60px;
   width:180px;
-  height:500px;
-  border:solid 6px #150905;
+  height:100%;
+  left: 20px;
+  border-left:solid 6px #150905;
+  border-right:solid 6px #150905;
+}
 
+#navborder li {
+  list-style: none;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#navborder a {
+  background-color: #333;
+  color:#87b51d;
+  display: block;
+  font-family:'Raleway',serif;
+  font-weight: 200;
+  text-decoration: none;
+  font-size:22px;
+  letter-spacing: 1px;
 }
 
 #logo {
@@ -241,7 +273,7 @@ p {
 }
 
 #open {
-  font-family:'Quicksand',cursive;
+  font-family:'Bitter';
   font-size:18px;
   font-weight: lighter;
   letter-spacing: 1pt;
@@ -270,41 +302,12 @@ p {
   text-align: center;
   line-height: 24px;
   letter-spacing: 1px;
-  font-family:'Quicksand';
+  font-family:'Raleway';
   font-size:15px;
 }
 
 .footertext {
   font-size: 16px;
-  font-family:'Quicksand',cursive;
-}
-
-#fixed-nav {
-  list-style:none;
-  position: absolute;
-  top:5px;
-  text-align: center;
-}
-
-#fixed-nav li {
-  margin-left:2px;
-  list-style: none;
-}
-
-#fixed-nav a {
-  background-color: #333;
-  color:#87b51d;
-  display: block;
-  padding-top: 20px;
-  margin-top:2px;
-  margin-right:10px;
-  margin-bottom:2px;
-  padding-bottom: 10px;
-  font-family:'Quicksand',cursive; 
-  text-decoration: none;
-  font-size:22px;
-  font-weight: bold;
-  letter-spacing: 1px;
 }
 
 /* menu info */
@@ -340,14 +343,14 @@ p {
 
 .menuheader {
   font-size: 18px;
-  font-family:'Quicksand', cursive;
+  font-family:'Raleway', serif;
   margin-left:40px;
   font-weight: bold;
 }
 
 .drink_name {
   font-size: 16px;
-  font-family:'Quicksand', cursive;
+  font-family:'Raleway', serif;
   text-align: left;
   margin-left:40px;
   font-weight: bold;
@@ -356,7 +359,7 @@ p {
 .drink_cap {
   text-align: center;
   font-size: 14px;
-  font-family:'Quicksand', cursive;
+  font-family:'Raleway', serif;
   margin-left:20px;
   font-weight: bold;
 }
@@ -378,7 +381,7 @@ p {
 #horiz a {
   text-decoration: none;
   list-style: none;
-  font-family:'Quicksand', cursive;
+  font-family:'Raleway', serif;
   color:#D65C33;
   display:block;
   width:90px;
@@ -389,14 +392,14 @@ p {
 
 .drink_desc {
   font-size: 16px;
-  font-family:'Quicksand', cursive;
+  font-family:'Raleway', serif;
   text-align:left;
   margin-left:40px;
 }
 
 #menuheader {
   font-size: 16px;
-  font-family:'Quicksand',cursive;
+  font-family:'Raleway',serif;
 }
 
 #icon_nav {
@@ -416,7 +419,7 @@ p {
   float: right;
   height: auto !important;
   height: 500px;
-  font-family: 'Quicksand', cursive;
+  font-family: 'Raleway', serif;
 }
 
 #contact-area {
@@ -427,7 +430,7 @@ p {
 #contact-area input, #contact-area textarea {
   padding: 5px;
   width: 471px;
-  font-family: 'Quicksand', cursive;
+  font-family: 'Raleway', serif;
   font-size: 1.4em;
   margin: 0px 0px 10px 0px;
   border: 2px solid #ccc;
