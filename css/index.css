@@ -1,3 +1,4 @@
+
 body {
   background-color:#E0F0FF;
 }
@@ -9,6 +10,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 50px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 p {
@@ -35,15 +44,7 @@ p {
 
 /* EVENTS CSS */
 
-#event-body {
-    float: right;
-    width: 66%;
-    margin: auto 100px;
-    background-color: white;
-    padding: 25px;
-}
-
-#events-header h1, p{
+#events-header h1, #events-header p{
     line-height: inherit;
     text-align: center;
 }
@@ -52,19 +53,49 @@ p {
     width: 75%;
     float: left;
     padding: 10px;
-    height: 1000px;
 }
 
 #events-sidebar{
     width: 15%;
-    right: 8%;
-    padding: 10px;
+    right: 11%;
+    padding: 5px;
     position: fixed;
-    border: 1px black solid;
 }
 
-#location {
+#location{
     margin-top: -30px;
+}
+
+#events-content h3, #events-content h6, #events-content p{
+    text-align: left;
+    font-family: 'Rokkitt';
+    font-weight: 400;
+    margin: 0px;
+}
+
+#events-photos {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+#events-photos img {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#events-text {
+    width: 70%;
+    float: right;
+}
+
+.events-content-wrap {
+    margin: 0px;
+    display: inline-block;
+}
+
+#events-buffer {
+    height: 170px;
 }
 
 /*images */
@@ -350,11 +381,12 @@ p {
 
 /*CSS for contact form*/
 #page-wrap {
-  width: 660px;
+  width: 66%;
   background: white;
-  padding: 20px 50px 20px 50px;
-  margin: 20px auto;
+  padding: 25px;
+  margin-right: 130px;
   min-height: 500px;
+  float: right;
   height: auto !important;
   height: 500px;
   font-family: 'Quicksand', cursive;
@@ -397,57 +429,3 @@ label {
 }
 
 /*end CSS for contact form*/
-
-#events-body {
-    float: right;
-    width: 66%;
-    margin: auto 100px;
-}
-
-#events-header h1, p{
-    line-height: inherit;
-    text-align: center;
-}
-
-#events-content{
-    width: 75%;
-    float: left;
-    padding: 10px;
-    height: 1000px;
-}
-
-#events-sidebar{
-    width: 15%;
-    right: 8%;
-    padding: 10px;
-    position: fixed;
-    border: 1px black solid;
-}
-
-#location {
-    margin-top: -30px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Dancing Script";
-}
-
-h1 {
-    font-size: 50px;
-}
-
-p {
-    font-family: 'Rokkitt';
-}
-
-.scrollup {
-    width: 50px;
-    height: 65px;
-    position: fixed;
-    right: 20%;
-    bottom: 30%;
-    background-image: url('img/icon-top.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    text-align: center;
-}
