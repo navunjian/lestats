@@ -155,11 +155,12 @@ p {
 }
 
 #socialmedia {
+  font-weight: bold;
   color:white;
   margin-left:975px;
   width:275px;
   height:100px;
-  margin-top:-120px;
+  margin-top:-114px;
   text-align: center;
   line-height: 24px;
   letter-spacing: 1px;
