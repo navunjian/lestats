@@ -107,7 +107,7 @@ body {
   text-align: center;
   line-height: 24px;
   letter-spacing: 1px;
-  font-family:'Quicksand', cursive;
+  font-family:'Quicksand';
   font-size:15px;
 }
 
@@ -163,7 +163,6 @@ body {
   letter-spacing: 1px;
 }
 
-<<<<<<< Updated upstream
 /*CSS for contact form*/
 #page-wrap {
   width: 660px;
@@ -213,7 +212,7 @@ label {
 }
 
 /*end CSS for contact form*/
-=======
+
 #events-body {
     float: right;
     width: 66%;
@@ -267,4 +266,3 @@ p {
     background-size: contain;
     text-align: center;
 }
->>>>>>> Stashed changes
