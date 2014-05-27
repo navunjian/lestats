@@ -1,15 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat|Rokkitt);
-
 body {
   background-color:#E0F0FF;
 }
 
-
+#navborder {
+  background-color:white;
+  position:absolute;
+  margin-top:5px;
+  margin-left:60px;
+  width:180px;
+  height:460px;
+  border:solid 6px #150905;
+}
 
 #logo {
   position:absolute;
   top:350px;
-  margin-left:67px;
+  margin-left:97px;
 }
 
 #footer {
@@ -41,11 +47,11 @@ body {
 }
 
 #open {
-  font-family:'Rokkitt', serif;
+  font-family:'Quicksand',cursive;
   font-size:18px;
   font-weight: lighter;
   letter-spacing: 1pt;
-  color:#8B0000;
+  color:#87b51d;
 }
 
 #adamsfooter {
@@ -69,68 +75,47 @@ body {
   text-align: center;
   line-height: 24px;
   letter-spacing: 1px;
-  font-family:'Rokkitt', serif;
+  font-family:'Quicksand', cursive;
   font-size:15px;
 }
 
 .footertext {
   font-size: 16px;
-  font-family:'Rokkitt', serif;
-  font-weight: 400;
-}
-
-#navborder {
-  background-color: #333;
-  position:absolute;
-  margin-top:0px;
-  margin-left:30px;
-  width:12em;
-  height:460px;
-  border:solid 1px #150905;
+  font-family:'Quicksand',cursive;
 }
 
 #fixed-nav {
-  opacity: 0.85;
-  background: #333;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 12em;
-  
+  list-style:none;
+  position:absolute;
+  top:5px;
+  text-align: center;
 }
 
 #fixed-nav li {
-  font: 14px 'Rokkitt', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin-left:2px;
   list-style: none;
-  text-align: center;
 }
+
 #fixed-nav a {
-  background: #333;
-  border-bottom: 1px solid #393939;
-  color: #ccc;
+  background-color: white;
+  color:#87b51d;
   display: block;
-  margin: 0;
-  padding: 8px 12px;
+  padding-top: 20px;
+  margin-top:2px;
+  margin-right:10px;
+  margin-bottom:2px;
+  padding-bottom: 10px;
+  font-family:'Quicksand',cursive; 
   text-decoration: none;
-  font-weight: normal;
+  font-size:22px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 #fixed-nav a:hover {
-  background: #8B0000 url('hover.gif') left center no-repeat;
-  color: #fff;
-  padding-bottom: 8px;
+  background-color: white;
+  display:block;
 }
-
-
-#hovnav area:focus{
-    outline-width: 0px;
-    text-decoration:none;
-    border-style: none;
-}
-
-area{border:none; outline:none;}
 
 #icon_nav {
   margin-left:500px;
@@ -150,34 +135,3 @@ area{border:none; outline:none;}
   font-weight: bold;
   letter-spacing: 1px;
 }
-
-h4{
-    font-weight: 400;
-    font-size: 30px;
-    color: #FF9F00
-}
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
- 
-
-
-
-
-
-
-
-
