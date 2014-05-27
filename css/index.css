@@ -17,7 +17,7 @@ h3 {
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 p {
@@ -36,10 +36,21 @@ p {
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 .page-header {
   font-family: "Quicksand";
   text-align: center;
   font-size: 30px;
+=======
+/* EVENTS CSS */
+
+#event-body {
+    float: right;
+    width: 66%;
+    margin: auto 100px;
+    background-color: white;
+    padding: 25px;
+>>>>>>> Stashed changes
 }
 
 /* EVENTS CSS */
@@ -66,10 +77,14 @@ p {
     margin-top: -30px;
 }
 
-#events-content h3, #events-content h6, #events-content p{
+#events-content h3, #events-content h6{
     text-align: left;
     font-family: 'Rokkitt';
     font-weight: 400;
+    margin: 0px;
+}
+
+#events-content p{
     margin: 0px;
 }
 
@@ -94,10 +109,22 @@ p {
     display: inline-block;
 }
 
-#events-buffer {
+#buffer {
     height: 170px;
 }
 
+/*story css*/
+#story-gallery{
+    width: 600px;
+    margin: auto;
+}
+#story-gallery img{
+    display: inline-block;
+    margin: 0px 20px;
+    width: 100px;
+    height: 100px;
+}
+    
 /*images */
 
 #parkimg {
@@ -361,6 +388,7 @@ p {
   font-weight: bold;
 }
 
+<<<<<<< Updated upstream
 .drink_desc {
   font-size: 16px;
   font-family:'Quicksand', cursive;
@@ -379,6 +407,8 @@ p {
   position:absolute;
 }
 
+=======
+>>>>>>> Stashed changes
 /*CSS for contact form*/
 #page-wrap {
   width: 66%;
@@ -428,4 +458,8 @@ label {
   font-size: 1.4em;
 }
 
+<<<<<<< Updated upstream
 /*end CSS for contact form*/
+=======
+/*end CSS for contact form*/
+>>>>>>> Stashed changes
