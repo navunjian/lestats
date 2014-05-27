@@ -117,13 +117,6 @@ body {
   font-weight: normal;
 }
 
-#fixed-nav a:hover {
-  background: #8B0000 url('hover.gif') left center no-repeat;
-  color: #fff;
-  padding-bottom: 8px;
-}
-
-
 #hovnav area:focus{
     outline-width: 0px;
     text-decoration:none;

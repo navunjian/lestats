@@ -2,6 +2,37 @@ body {
   background-color:#E0F0FF;
 }
 
+/*images */
+
+#parkimg {
+  margin-top:180px;
+  margin-left:380px;
+  float:left;
+}
+
+#homeimage {
+  margin-top:-10px;
+  float:right;
+  position:fixed;
+  margin-left:530px;
+}
+
+#adamsimg {
+  margin-top:180px;
+  float:right;
+  margin-right:190px;
+}
+
+#adamsimg img, #parkimg img {
+  border: #333 7px solid;
+}
+
+#img_cap {
+  font-family:"Quicksand";
+  font-size:20px;
+  text-align: center;
+}
+
 #navborder {
   opacity: .85;
   background-color: #333;
@@ -111,11 +142,6 @@ body {
   font-size:22px;
   font-weight: bold;
   letter-spacing: 1px;
-}
-
-#fixed-nav a:hover {
-  background-color: white;
-  display:block;
 }
 
 #icon_nav {
