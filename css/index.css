@@ -118,7 +118,7 @@ body {
 }
 
 #fixed-nav a:hover {
-  background: #2580a2 url('hover.gif') left center no-repeat;
+  background: #8B0000 url('hover.gif') left center no-repeat;
   color: #fff;
   padding-bottom: 8px;
 }
