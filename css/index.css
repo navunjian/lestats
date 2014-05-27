@@ -41,11 +41,11 @@ body {
 }
 
 #open {
-  font-family:'Quicksand',cursive;
+  font-family:'Rokkitt', serif;
   font-size:18px;
   font-weight: lighter;
   letter-spacing: 1pt;
-  color:#87b51d;
+  color:#8B0000;
 }
 
 #adamsfooter {
@@ -69,13 +69,14 @@ body {
   text-align: center;
   line-height: 24px;
   letter-spacing: 1px;
-  font-family:'Quicksand', cursive;
+  font-family:'Rokkitt', serif;
   font-size:15px;
 }
 
 .footertext {
   font-size: 16px;
-  font-family:'Quicksand',cursive;
+  font-family:'Rokkitt', serif;
+  font-weight: 400;
 }
 
 #navborder {
@@ -150,7 +151,11 @@ area{border:none; outline:none;}
   letter-spacing: 1px;
 }
 
-
+h4{
+    font-weight: 400;
+    font-size: 30px;
+    color: #FF9F00
+}
 
 
 
