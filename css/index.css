@@ -61,6 +61,18 @@ p {
     z-index: -100;
 }
 
+#homepage-logo{
+    width: 70%;
+    min-width: 800px;
+    position: fixed;
+    left: 300px;
+    height: 400px;
+    margin: 70px auto;
+    float: right;
+    background-image: url(img/lestatstitle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 #event-body {
     float: right;
@@ -246,64 +258,33 @@ p {
 
 #footer {
   background-color:#150905;
-  height:170px;
-  margin-top:480px;
-  width:1376px;
-  left:0;
-  right:0;
-  margin-left:-10px;
-  margin-bottom:-10px;
+  height:130px;
+  width:100%;
+  min-width: 1376px;
   -webkit-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
   -moz-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
   box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
   position:fixed;
-  bottom:0;
+  bottom: 0px;
 }
 
-#parksfooter {
-  margin-left:110px;
-  margin-top:18px;
-  width:275px;
-  height:100px;
+#parksfooter, #adamsfooter, #socialmedia{
+  width: 30%;
   text-align: center;
   color:white;
-  font-weight: bold;
-  line-height: 24px;
-  letter-spacing: 1px;
+  float: left;
+  line-height: 120%;
+  padding-top: 10px;
+}
+
+#parksfooter p, #adamsfooter p, #socialmedia p{
+  font-weight: 100;
 }
 
 #open {
   font-family:'Bitter';
-  font-size:18px;
-  font-weight: lighter;
-  letter-spacing: 1pt;
-  color:#87b51d;
-}
-
-#adamsfooter {
-  font-weight: bold;
-  color:white;
-  margin-left:545px;
-  width:275px;
-  height:100px;
-  margin-top:-113px;
-  text-align: center;
-  line-height: 24px;
-  letter-spacing: 1px;
-}
-
-#socialmedia {
-  font-weight: bold;
-  color:white;
-  margin-left:975px;
-  width:275px;
-  height:100px;
-  margin-top:-114px;
-  text-align: center;
-  line-height: 24px;
-  letter-spacing: 1px;
-  font-family:'Raleway';
-  font-size:15px;
+  font-weight: 400;
+  color:#FF9F00;
 }
 
 .footertext {
