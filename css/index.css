@@ -268,7 +268,7 @@ p {
   -moz-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
   box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
   bottom: 0px;
-  position: absolute;
+  position: fixed;
 }
 
 #parksfooter, #adamsfooter, #socialmedia{
