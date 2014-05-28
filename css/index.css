@@ -240,7 +240,6 @@ p {
 }
 
 #navborder a {
-  background-color: #333;
   color:#87b51d;
   display: block;
   font-family:'Raleway',serif;
@@ -248,6 +247,10 @@ p {
   text-decoration: none;
   font-size:22px;
   letter-spacing: 1px;
+}
+
+#navborder a:hover {
+  color:#FF9F00;
 }
 
 #logo {
