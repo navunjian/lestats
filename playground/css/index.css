@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
   background-color:#E0F0FF;
 }
@@ -89,31 +90,43 @@ p {
     
 }
 
-#top-nav{
+#top-nav {
     width: 100%;
-    min-width: 800px;
+    min-width: 600px;
     height: 10%;
     min-height: 50px;
     background-color: black;
     opacity: 0.6;
+    text-align: center;
 }
 
-#nav-container{
-    width: 70%;
-    min-width: 1066px;
-    margin: 0px auto;
+
+ul#nav-ul {
+    list-style: none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
 }
 
-#nav-ul{
-    list-style-type: none;
+#nav_container {
+    width:900px;
+    margin:0 auto;
 }
 
-#nav-ul li{
-    display: inline-block;
+#nav-ul li {
+    float:left;
+    padding:10px 20px; 
+}
+
+#nav-ul li a {
+    display:block;
+    width:140px;
     font-family: "Lato";
-    font-weight: 200;
-    font-size: 36px;
+    font-weight: 300;
+    font-size: 18px;
     color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
 }
 
 #homepage-logo-img{
