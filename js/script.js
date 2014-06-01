@@ -1,9 +1,9 @@
 $(document).ready(function () {
-     $('#homepage-logo img').fadeIn(2000);
+     $('#homepage-logo-img').fadeIn(2000);
    });
 
 // Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
-$(function () {
+$(document).ready(function () {
 	var open = false;
 	$('#footerSlideButton').click(function() {
 		if(open === false) {
