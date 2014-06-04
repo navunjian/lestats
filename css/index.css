@@ -340,6 +340,7 @@ ul#nav-ul {
 }
 
 #footerbutton {
+    margin-top: 10px;
     background-color: black;
     width: 100%;
     height: 35px;
@@ -359,11 +360,17 @@ ul#nav-ul {
 #footer {
   color:white;
   background-color:black;
-  height:80px;
+  height:85px;
   width:100%;
   min-width: 800px;
   font-family:'Bitter';
   font-weight: 400;
+}
+
+.icon_img {
+  display:inline-block;
+  margin-top:4px;
+  padding:2px;
 }
 
 #parksfooter, #adamsfooter, #socialmedia{
