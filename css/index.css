@@ -332,45 +332,51 @@ ul#nav-ul {
 }
 
 #footer-container {
-    background-color: white;
+    background-color: black;
     position: fixed;
     bottom:0;
     width: 100%;
     min-width: 800px;
-    font-family:'Bitter';
-    font-weight: 400;
 }
 
 #footerbutton {
-    background-color: white;
-    text-decoration: none;
-    bottom: 0;
+    background-color: black;
     width: 100%;
-    height: 10px;
+    height: 35px;
+    text-align: center;
+}
+
+#font {
     list-style:none;
-    font-family:'Bitter';
-    font-weight: 400;
-  }
+    font-family: 'Lato';
+    font-weight:100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
 
 #footer {
-  color:black;
-  background-color:white;
-  height:100px;
+  color:white;
+  background-color:black;
+  height:80px;
   width:100%;
   min-width: 800px;
+  font-family:'Bitter';
+  font-weight: 400;
 }
 
 #parksfooter, #adamsfooter, #socialmedia{
   width: 33%;
   margin: 10px auto;
   text-align: center;
-  color:black;
+  color:white;
   display: inline-block;
   line-height: 120%;
-  padding-top: 10px;
   vertical-align: top;
   font-family:'Bitter';
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 #parksfooter p, #adamsfooter p, #socialmedia p{
@@ -554,24 +560,6 @@ label {
   height: 500px;
   font-family: 'Raleway', serif;
   color: white;
-}
-
-/* FOOTER */
-#footerbutton {
-    background: white; /* add image if you want */
-    color: gray;
-    display: block;
-    height: 25px;
-    line-height: 25px;
-    margin: auto;
-    overflow: hidden;
-    padding: 5px;
-    text-align: center;
-    width: 100%;
-    font-size:20px;
-    letter-spacing: 2px;
-    padding-bottom:10px;
-
 }
 
 
