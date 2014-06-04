@@ -39,25 +39,22 @@
       </div>
 
       <div id="footer-container">
-        <a href="#" onMouseOver="toggleFooter()"><div id="footerbutton" class="tag">Location and Hours</div></a>
+        <div onMouseOver="toggleFooter()" id="footerbutton" >Location and Hours</div></a>
          <div id="footer" style="display:none">
                   <div id="parksfooter">
-                      <p class="footertext">LESTAT'S ON PARK </p>
-                      <br><span id="open">Open 24/7</span>
-                      <br>4496 Park Blvd
-                      <br>San Diego, CA
+                      <p class="footertext">LESTAT'S ON PARK   |   4496 Park Blvd San Diego, CA
+                      <br>Open 24/7
                       <br>(619) 501-6638
                       </p>
                   </div>
                   <div id="adamsfooter">
-                      <p class="footertext">LESTAT'S ON ADAMS</p>
-                      <br><span id="open">Open 24/7</span>
-                      <br>3343 Adams Ave
-                      <br>San Diego, CA
+                      <p class="footertext">LESTAT'S ON ADAMS   |  3343 Adams Ave San Diego, CA
+                      <br>Open 24/7
                       <br>(619) 282-0437
+                      </p>
                   </div>
                   <div id="socialmedia">  
-                      <p class="footertext"> CONNECT WITH LESTAT'S </p>
+                      <p class="footertext"> CONNECT </p>
                   </div>
           </div>
       </div>  
@@ -73,8 +70,10 @@ $(document).ready(function() {
 
 // Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
 function toggleFooter () {
-  $("#footer").slideToggle();
-}
+  $("#footer").slideToggle({
+    direction: "up"}, 300);
+  };
+
 </script>
 
 </body>
