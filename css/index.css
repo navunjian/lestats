@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color:#E0F0FF;
+  
 }
 
 h1, h2{
@@ -338,8 +338,8 @@ ul#nav-ul {
     min-width: 800px;
 }
 
-#footer-slide-button{
-    background-color: red;
+#footerbutton{
+    background-color: black;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -349,8 +349,8 @@ ul#nav-ul {
 }
 
 #footer {
-  background-color:#150905;
-  height:130px;
+  background-color:black;
+  height:100px;
   width:100%;
   min-width: 800px;
   -webkit-box-shadow: 10px 10px 120px 10px rgba(0,0,0,0.82);
