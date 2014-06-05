@@ -185,7 +185,7 @@ ul#nav-ul {
 
 #open24-7span{
     text-align: center;
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 100;
 }
 
@@ -581,33 +581,28 @@ background-color:black;
     width: 50%;
     min-width: 400px;
     float: left;
-    height:100%;
-    min-height: 700px;
 }
 
 #contact-right{
     width: 50%;
     min-width: 400px;
-    float: right;
-    height:100%;
-    min-height: 700px;
 }
 
-#contact-area {
-  width: 600px;
-  margin-top: 25px;
-  padding: 20px 50px 20px 50px;
-  min-height: 500px;
-  height: auto !important;
-}
+
 
 #contact-area input, #contact-area textarea {
   padding: 5px;
   width: 471px;
-  font-family: 'Raleway', serif;
-  font-size: 1.4em;
+  font-family: 'Lato', serif;
+  font-size: 1.0em;
   margin: 0px 0px 10px 0px;
   border: 2px solid #ccc;
+}
+
+#contact-area label{
+    font-family: 'Lato';
+    color: white;
+    font-weight: 100;
 }
 
 #contact-area textarea {
