@@ -34,7 +34,14 @@ h3 {
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 18px;
+    text-align: left;
+}
+
+h5
+{
+  font-size: 17px;
+
 }
 
 p {
@@ -122,7 +129,6 @@ p {
     text-align: center;
 }
 
-
 ul#nav-ul {
     list-style: none;
     padding:0;
@@ -156,8 +162,6 @@ ul#nav-ul {
     align-self: center;
     opacity: 0.8;
 }
-
-
 
 #open24-7{
     height: 100px;
@@ -279,16 +283,13 @@ ul#nav-ul {
   text-align: center;
 }
 
-
 #drink_link  {
   position: fixed;
   min-width: 400px;
   width: 50%;
   left: 0;
-
   top:60%;
-  min-height: 750px;
-  
+  min-height: 750px; 
 }
 
 #food_link {
@@ -298,7 +299,6 @@ ul#nav-ul {
   left: 50%;
   top:60%;
   min-height: 750px;
-
 }
 
 #menu_link_contain{
@@ -443,48 +443,42 @@ ul#nav-ul {
 
 /* menu info */
 .menucontent {
-  margin-top:150px;
-  margin-left:360px;
-  width:700px;
+  margin:0 auto;
+  width:48%;
   height:100%;
-  border-left: solid #333 3px;
-  border-right: solid #333 3px;
-  position:absolute;
+  font-size: 40pt;
+  font-family:'Lato', serif;
+  text-align: center;
 }
 
+.shotcontainer{
+margin-left:300px;
+}
+
+.shotheader {
+  font-family: 'Lato';
+  font-weight:400;
+  letter-spacing: 2px;
+  font-size:16px;
+  display:inline-block;
+  margin-left:20px;
+  padding:10px;
+}
 
 .menuimage_1 img, .menuimage_2 img {
   width:150px;
   height:150px;
 }
 
-.menuimage_1 {
-  float:right;
-  margin-top:180px;
-  margin-left:500px;
-  margin-right:50px;
-}
-
-.menuimage_2 {
-  margin-top:30px;
-  float:right;
-  margin-left:700px;
-  margin-right:50px;
-}
-
-.menuheader {
-  font-size: 18px;
-  font-family:'Raleway', serif;
-  margin-left:40px;
-  font-weight: bold;
-}
-
-.drink_name {
+#namemenu {
   font-size: 16px;
-  font-family:'Raleway', serif;
+  font-family:'Lato', serif;
   text-align: left;
-  margin-left:40px;
-  font-weight: bold;
+  font-weight: thin;
+  letter-spacing: .5px;
+  line-height: 20px;
+  display:inline;
+  width:200px;
 }
 
 .drink_cap {
@@ -528,38 +522,59 @@ ul#nav-ul {
   margin-left:40px;
 }
 
-#menuheader {
-  font-size: 16px;
-  font-family:'Raleway',serif;
+.menuheader {
+  font-size: 24px;
+  font-family:'Lato', serif;
+  margin:0 auto;
 }
 
-#icon_nav {
-  margin-left:375px;
-  margin-top:-30px;
-  position:absolute;
+.icon_nav_container {
+  margin:0 auto;
+  text-align: center;
+}
+
+#menu_left_img {
+margin:0 auto;
+width:150px;
+height:100%;
+background-color:black;
+}
+
+#menu_rt_img {
+width:150px;
+margin:0 auto;
+height:100%;
+background-color:black;
+}
+
+.icon_nav {
+  margin-left: 0;
+  margin-right: 0;
 }
     
 /*CSS for contact form*/
 #page-wrap {
 
-
+  width: 660px;
+  padding: 20px 50px 20px 50px;
+  margin: 20px auto;
+  min-height: 500px;
+  height: auto !important;
+  height: 500px;
   width: 66%;
   background: #333;
   opacity: .85;
-  padding: 25px;
-  margin-right: 130px;
   color:white;
-
-  min-height: 500px;
-  float: right;
-  height: auto !important;
-  height: 500px;
   font-family: 'Raleway', serif;
+
 }
 
 #contact-area {
   width: 600px;
   margin-top: 25px;
+  padding: 20px 50px 20px 50px;
+  min-height: 500px;
+  height: auto !important;
 }
 
 #contact-area input, #contact-area textarea {
