@@ -574,6 +574,22 @@ background-color:black;
 
 }
 
+#contact-left{
+    width: 50%;
+    min-width: 400px;
+    float: left;
+    height:100%;
+    min-height: 700px;
+}
+
+#contact-right{
+    width: 50%;
+    min-width: 400px;
+    float: right;
+    height:100%;
+    min-height: 700px;
+}
+
 #contact-area {
   width: 600px;
   margin-top: 25px;
