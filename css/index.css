@@ -126,7 +126,7 @@ p {
     min-width: 800px;
     height: auto;
     margin: 0px auto;
-    padding-top: 100px;
+    padding-top: 40px;
     
 }
 
@@ -175,21 +175,18 @@ ul#nav-ul {
 }
 
 #open24-7{
-    width: 30%;
-    min-width: 400px;
-    margin: -40px auto;
+    width: 50%;
+    min-width: 800px;
+    margin: -20px auto;
     border-top: 1px solid white;
     padding-top: 15px;
 }
 
-#locations{
-    width: 50%;
-    min-width: 450px;
-    margin: 0px auto;
-}
 
 #open24-7span{
     text-align: center;
+    font-size: 100px;
+    font-weight: 100;
 }
 
 
@@ -304,49 +301,39 @@ ul#nav-ul {
 }
 
 #drink_link  {
-  position: fixed;
-  min-width: 400px;
-  width: 50%;
   left: 0;
-  top:60%;
-  min-height: 750px; 
 }
 
 #food_link {
+    left: 50%;
+}
+
+#food_link, #drink_link {
   position: fixed;
   min-width: 400px;
   width: 50%;
-  left: 50%;
-  top:60%;
-  min-height: 750px;
+  height: 100%;
+  display: none;
 }
 
-#menu_link_contain{
-    margin: 0px auto;
-    width: 300px;
-    height:100%;
-}
-
-#food_link a {
+#food_link_a, #drink_link_a  {
   text-decoration: none;
   font-family: 'Lato';
     text-align: center;
     color: #000000;
-    font-weight: 200;
+    font-weight: 100;
+    opacity: 1.0;
     letter-spacing: 2px;
     font-size: 100px;
+     display: block;
+    padding-top: 50%;
+    padding-bottom: 50%;
 }
 
-#drink_link a {
-  text-decoration: none;
-   font-family: 'Lato';
-    text-align: center;
-    color: #000000;
-    font-weight: 200;
-    letter-spacing: 2px;
-    font-size: 100px;
+#food_link a:hover , #drink_link a:hover {
+    background-color: white;
+    opacity: 0.3;
 }
-
 #main {
   margin-left:370px;
   margin-top: 30px;
