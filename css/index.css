@@ -79,7 +79,18 @@ p {
 }
 
 #events-bg{
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/lestatsevents.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0px;
+    z-index: -100;
+}
+
+#contact-bg{
+    background-image: url('../img/expansion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -164,12 +175,17 @@ ul#nav-ul {
 }
 
 #open24-7{
-    height: 100px;
     width: 30%;
     min-width: 400px;
-    margin: -40px auto auto auto;
+    margin: -40px auto;
     border-top: 1px solid white;
     padding-top: 15px;
+}
+
+#locations{
+    width: 50%;
+    min-width: 450px;
+    margin: 0px auto;
 }
 
 #open24-7span{
