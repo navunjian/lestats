@@ -402,13 +402,10 @@ ul#nav-ul {
 
 /* menu info */
 .menucontent {
-  margin-top:150px;
-  margin-left:360px;
+  margin:0 auto;
   width:700px;
   height:100%;
-  border-left: solid #333 3px;
-  border-right: solid #333 3px;
-  position:absolute;
+  margin-top:100px;
 }
 
 
@@ -417,33 +414,20 @@ ul#nav-ul {
   height:150px;
 }
 
-.menuimage_1 {
-  float:right;
-  margin-top:180px;
-  margin-left:500px;
-  margin-right:50px;
-}
-
-.menuimage_2 {
-  margin-top:30px;
-  float:right;
-  margin-left:700px;
-  margin-right:50px;
-}
-
 .menuheader {
   font-size: 18px;
-  font-family:'Raleway', serif;
-  margin-left:40px;
+  font-family:'Lato', serif;
+  margin-left:0 auto;
   font-weight: bold;
+  text-align: center;
 }
 
 .drink_name {
   font-size: 16px;
-  font-family:'Raleway', serif;
+  font-family:'Lato', serif;
   text-align: left;
   margin-left:40px;
-  font-weight: bold;
+  font-weight: thin;
 }
 
 .drink_cap {
@@ -487,21 +471,18 @@ ul#nav-ul {
   margin-left:40px;
 }
 
-#menuheader {
+.menuheader {
   font-size: 16px;
   font-family:'Raleway',serif;
 }
 
-#icon_nav {
-  margin-left:375px;
-  margin-top:-30px;
-  position:absolute;
+.icon_nav {
+  margin: 0 auto;
+  display:block;
 }
     
 /*CSS for contact form*/
 #page-wrap {
-
-
   width: 66%;
   background: #333;
   opacity: .85;
