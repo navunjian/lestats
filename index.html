@@ -6,14 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link type="text/css" rel="stylesheet" href="css/index.css">
   <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+  <link href="css/jquery.parallax.css" rel="stylesheet" type="txt/css" />
+    
 
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/lightbox-2.6.min.js"></script>
   <body>
       
       <!--background picture-->
-      <div id="homepage-bg">
-          <div id="homepage-pattern"></div>
+
+        <div id="homepage-bg">
+          <div id="homepage-pattern">
+            </div>
       </div>
         <div id="top-nav">
           <div id="nav_container">
@@ -26,10 +30,11 @@
           </div>
         </div>
 
+
       
       <!--lestats title-->
           <div id="homepage-logo">
-            <img id="homepage-logo-img" style="display:none" src="img/lestats-white.png" />
+            <img id="homepage-logo-img" style="display:none" src="img/lestats-beige.png" />
           </div>
       
       <!--open 24/7 div-->
@@ -45,14 +50,16 @@
          </div>
          <div id="footer" style="display:none">
                   <div id="parksfooter">
-                      <p class="footertext">LESTAT'S ON PARK   |   4496 Park Blvd San Diego, CA
+                      <p class="footertext">LESTAT'S ON PARK
+                      <br>4496 Park Blvd San Diego, CA
                       <br>(619) 501-6638
                       <br>Open 24/7
 
                       </p>
                   </div>
                   <div id="adamsfooter">
-                      <p class="footertext">LESTAT'S ON ADAMS   |  3343 Adams Ave San Diego, CA
+                      <p class="footertext">LESTAT'S ON ADAMS
+                      <br>3343 Adams Ave San Diego, CA
                       <br>(619) 282-0437
                       <br>Open 24/7
                       </p>
@@ -81,6 +88,8 @@ function toggleFooter () {
   $("#footer").slideToggle({
     direction: "up"}, 300);
   };
+    
+
 
 </script>
 
