@@ -12,15 +12,15 @@ body {
 }
 
 h1, h2{
-    font-family: 'Clicker Script';
+    font-family: 'Lato';
     text-align: center;
-    color: white;
+    color: #d9c8a4;
 }
 
 h3, h4, h5, h6 {
     font-family: 'Lato';
     text-align: center;
-    color: white;
+    color: #d9c8a4;
     font-weight: 200;
     letter-spacing: 2px;
 }
@@ -38,7 +38,7 @@ h4 {
 }
 
 p {
-    font-family: 'EB Garamond';
+    font-family: 'Lato';
 
 }
 
@@ -58,6 +58,17 @@ p {
   font-family: "Raleway";
   text-align: center;
   font-size: 30px;
+}
+
+#menu-landing{
+    background-image:url('../img/menu-landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0px;
+    z-index: -100;
 }
 
 #homepage-bg{
@@ -134,6 +145,8 @@ ul#nav-ul {
     align-self: center;
     opacity: 0.8;
 }
+
+
 
 #open24-7{
     height: 100px;
@@ -255,35 +268,52 @@ ul#nav-ul {
   text-align: center;
 }
 
+
 #drink_link  {
-  float:left;
-  margin-left:450px;
-  margin-top:350px;
+  position: fixed;
+  min-width: 400px;
+  width: 50%;
+  left: 0;
+
+  top:60%;
+  min-height: 750px;
+  
 }
 
 #food_link {
-  float:right;
-  margin-top:355px;
-  margin-left:895px;
-  position:fixed;
+  position: fixed;
+  min-width: 400px;
+  width: 50%;
+  left: 50%;
+  top:60%;
+  min-height: 750px;
+
+}
+
+#menu_link_contain{
+    margin: 0px auto;
+    width: 300px;
+    height:100%;
 }
 
 #food_link a {
   text-decoration: none;
-  color:#87b51d;
-  font-family:'Raleway', serif; 
-  font-size:30px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-family: 'Lato';
+    text-align: center;
+    color: #000000;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 100px;
 }
 
 #drink_link a {
   text-decoration: none;
-  color:#87b51d;
-  font-family:'Raleway', serif; 
-  font-size:30px;
-  font-weight: bold;
-  letter-spacing: 1px;
+   font-family: 'Lato';
+    text-align: center;
+    color: #000000;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 100px;
 }
 
 #main {
@@ -363,7 +393,7 @@ ul#nav-ul {
   height:85px;
   width:100%;
   min-width: 800px;
-  font-family:'Bitter';
+  font-family:'Lato';
   font-weight: 400;
 }
 

@@ -3,6 +3,11 @@ $(document).ready(function () {
    });
 
 
+$(document).ready(function () {
+     jQuery( '.parallax-layer' ).parallax( options );
+   });
+
+
 
 // Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
 function toggleFooter () {

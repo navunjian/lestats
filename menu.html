@@ -10,34 +10,47 @@
   <script src="js/lightbox-2.6.min.js"></script>
 
   <body>
-   <div id="top-nav">
+      <!--background picture-->
+
+        <div id="menu-landing">
+          <div id="homepage-pattern">
+            </div>
+      </div>
+        <div id="top-nav">
           <div id="nav_container">
               <ul id="nav-ul">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="story.html">STORY</a></li>
                 <li><a href="menu.html">MENU</a></li>
                 <li><a href="events.html">EVENTS</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
               </ul>
           </div>
         </div>
-
-
-    <div id="main">  
-        <img src="http://placehold.it/750x275">
-        
+      
+      
+    <div id="drink_link" style="display:none">
+        <div id="menu_link_contain">
+            <a href="hotdrinks.html">Drinks</a>
+        </div>
     </div>
-
-    <div id="drink_link">
-            <a href="hotdrinks.html">Drinks Menu </a>
+    <div id="food_link" style="display:none">
+       <div id="menu_link_contain">
+            <a href="bfast.html">Food</a>
+        </div>
     </div>
-    <div id="food_link">
-            <a href="bfast.html"> Food Menu </a>
-    </div>
+                            
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://code.jquery.com/jquery.js"></script>
 
+<script language="javascript">
+$(document).ready(function() {
+    $('#food_link').fadeIn(1500);
+    $('#drink_link').fadeIn(1500);
+});
+    
+
+</script>
 </body>
 </html>
