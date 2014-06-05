@@ -51,10 +51,17 @@
                 <li><a href="contact.html">CONTACT</a></li>
               </ul>
           </div>
-        </div>
+   </div>
+      
+   <div id="menu_left_img">
+      <!--<img width="200px" height="150px" src="img/supermocha.jpg">-->
+   </div>
+   <div id="menu_rt_img">
+      <!--<img width="200px" height="150px" src="img/darklatte.jpg">-->
+   </div>
 
-    <div class="icon_nav">
-      <img name="emp" SRC="./img/main_nav.png" USEMAP="#hovnav">
+    <div class="icon_nav_container">
+      <img class="icon_nav" name="emp" SRC="./img/main_nav.png" USEMAP="#hovnav">
         <map id="#hovnav" name="hovnav">
           <area shape="rect" alt="hotdrink" onFocus= "blur()" onMouseOver= "hothover()" onMouseOut="original()" coords="88,53,143,124" href="hotdrinks.html"  />
           <area shape="rect" alt="colddrink" onFocus= "blur()" onMouseOver= "coldhover()" onMouseOut="original()" coords="234,51,289,123" href="colddrinks.html" />
@@ -64,9 +71,14 @@
     </div>
 
     <div class = "menucontent">
-        <p class="menuheader"> HOT DRINKS</p>
-        <div class="drink_name">
-            <p>House Coffee </p> 
+        <p class="menuheader"> HOT DRINKS </p>
+                <div class="shotcontainer">
+                    <p class="shotheader"> Single </p>
+                    <p class="shotheader"> Double</p>
+                    <p class="shotheader"> Grande </p>
+                </div>
+        <div id="namemenu">
+            <p>House Coffee</p>
             <p>Espresso </p>
             <p>Americano </p> 
             <p>Cappucchino </p> 
@@ -84,23 +96,16 @@
             <p>tea Latté (unsweetened)</p>
             <p>Café au Lait</p>
             <p>Steamer</p>
-        <p> Choose from 6 different roasts: <br>
+        <br><p style="text-align:center"> Selection of 6        different roasts <br>
          Wild Cat Dark -- French Roast Dark -- Sumatran Medium -- Columbian Medium <br>
         Doughnut Shop Medium -- Decaf Maggie Noire Dark </p>
       </div>
     </div>
-
+    <br>
+    <br>
     
+   
     
-    <!-- UNEVEN NAV LINKS
-     <div id="icon_nav_links">
-          <ul>
-              <li id="horiz"><a href="hotdrinks.html">hot drinks</a></li>
-              <li id="horiz"><a href="colddrinks.html">cold drinks</a></li>
-              <li id="horiz"><a href="specialties.html">specialties</a></li>
-              <li id="horiz"><a href="tealist.html">tea list</a></li>
-          </ul>
-    </div>-->
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://code.jquery.com/jquery.js"></script>

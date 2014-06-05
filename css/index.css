@@ -111,7 +111,6 @@ p {
     text-align: center;
 }
 
-
 ul#nav-ul {
     list-style: none;
     padding:0;
@@ -145,8 +144,6 @@ ul#nav-ul {
     align-self: center;
     opacity: 0.8;
 }
-
-
 
 #open24-7{
     height: 100px;
@@ -268,16 +265,13 @@ ul#nav-ul {
   text-align: center;
 }
 
-
 #drink_link  {
   position: fixed;
   min-width: 400px;
   width: 50%;
   left: 0;
-
   top:60%;
-  min-height: 750px;
-  
+  min-height: 750px; 
 }
 
 #food_link {
@@ -287,7 +281,6 @@ ul#nav-ul {
   left: 50%;
   top:60%;
   min-height: 750px;
-
 }
 
 #menu_link_contain{
@@ -433,31 +426,41 @@ ul#nav-ul {
 /* menu info */
 .menucontent {
   margin:0 auto;
-  width:700px;
+  width:48%;
   height:100%;
-  margin-top:100px;
+  font-size: 40pt;
+  font-family:'Lato', serif;
+  text-align: center;
 }
 
+.shotcontainer{
+margin-left:300px;
+}
+
+.shotheader {
+  font-family: 'Lato';
+  font-weight:400;
+  letter-spacing: 2px;
+  font-size:16px;
+  display:inline-block;
+  margin-left:20px;
+  padding:10px;
+}
 
 .menuimage_1 img, .menuimage_2 img {
   width:150px;
   height:150px;
 }
 
-.menuheader {
-  font-size: 18px;
-  font-family:'Lato', serif;
-  margin-left:0 auto;
-  font-weight: bold;
-  text-align: center;
-}
-
-.drink_name {
+#namemenu {
   font-size: 16px;
   font-family:'Lato', serif;
   text-align: left;
-  margin-left:40px;
   font-weight: thin;
+  letter-spacing: .5px;
+  line-height: 20px;
+  display:inline;
+  width:200px;
 }
 
 .drink_cap {
@@ -502,13 +505,33 @@ ul#nav-ul {
 }
 
 .menuheader {
-  font-size: 16px;
-  font-family:'Raleway',serif;
+  font-size: 24px;
+  font-family:'Lato', serif;
+  margin:0 auto;
+}
+
+.icon_nav_container {
+  margin:0 auto;
+  text-align: center;
+}
+
+#menu_left_img {
+margin:0 auto;
+width:150px;
+height:100%;
+background-color:black;
+}
+
+#menu_rt_img {
+width:150px;
+margin:0 auto;
+height:100%;
+background-color:black;
 }
 
 .icon_nav {
-  margin: 0 auto;
-  display:block;
+  margin-left: 0;
+  margin-right: 0;
 }
     
 /*CSS for contact form*/

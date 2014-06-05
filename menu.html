@@ -28,15 +28,15 @@
         </div>
       
       
-    <div id="drink_link" style="display:none">
+    <div onMouseOver="lightenleft()" id="drink_link" style="display:none">
         <div id="menu_link_contain">
             <a href="hotdrinks.html">Drinks</a>
         </div>
     </div>
-    <div id="food_link" style="display:none">
+    <div onMouseOver="lightenleft()" id="food_link" style="display:none">
        <div id="menu_link_contain">
             <a href="bfast.html">Food</a>
-        </div>
+       </div>
     </div>
                             
 
@@ -49,7 +49,12 @@ $(document).ready(function() {
     $('#food_link').fadeIn(1500);
     $('#drink_link').fadeIn(1500);
 });
-    
+
+$('#drink_link').mouseEnter(function() {
+    $(this).children('#menu_link_contain').fadeIn('fast');
+  }).mouseLeave(function() {
+    $(this).children('#menu_link_contain').fadeOut('fast');
+});
 
 </script>
 </body>
