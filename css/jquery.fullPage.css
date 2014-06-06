@@ -9,6 +9,8 @@ html, body {
     margin: 0;
     padding: 0;
 	overflow:hidden;
+    background-image:url("../img/grayback.png");
+    background-image:repeat;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 #superContainer {
@@ -27,6 +29,14 @@ html, body {
 .slide {
     float: left;
 }
+
+.toSlide {
+    margin:0 auto;
+    margin-left:10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .slide, .slidesContainer {
     height: 100%;
     display: block;
@@ -66,13 +76,13 @@ html, body {
 .controlArrow.prev {
     left: 15px;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-width: 20px 14px 20px 0;
+    border-color: transparent gray transparent transparent;
 }
 .controlArrow.next {
     right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-width: 22px 6px 24px 14px;
+    border-color: transparent transparent transparent gray;
 }
 .scrollable {
     overflow: scroll;
