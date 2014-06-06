@@ -469,10 +469,8 @@ ul#nav-ul {
 /* menu info */
 .menucontent {
   margin:0 auto;
-  height:100%;
   font-size: 40pt;
   font-family:'Lato', serif;
-  text-align: center;
 }
 
 .shotcontainer{
@@ -494,6 +492,8 @@ ul#nav-ul {
     min-width: 625px;
     float: left;
     background-image: url('../img/sprinkles.png');
+    height: 100%;
+    position: absolute;
 }
 
 #menu-left-pattern{
@@ -508,8 +508,8 @@ ul#nav-ul {
     
 }
 
-#menu-single, #menu-double, #menu-names, #menu-grande{
-    width: 25%;
+#menu-single, #menu-double, #menu-grande{
+    width: 20%;
     padding: 0px;
     height: 30px;
     margin: 0px;
@@ -518,9 +518,30 @@ ul#nav-ul {
     text-align: left;
 }
 
-#menu-single li, #menu-double li, #menu-names li, #menu-grande li{
+#menu-names{
+    width: 40%;
+     padding: 0px;
+    height: 30px;
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+
+
+#menu-single li, #menu-double li, #menu-grande li{
     font-family: 'Lato';
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 17px;
+    margin-left: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#menu-names li{
+    font-weight: 300;
+     font-family: 'Lato';
     font-size: 17px;
     margin-left: 30px;
     text-decoration: none;
@@ -531,6 +552,7 @@ ul#nav-ul {
 #menu-right{
     width: 50%;
     min-width: 625px;
+    float: right;
 }
 
 .menuimage_1 img, .menuimage_2 img {
@@ -616,8 +638,7 @@ background-color:black;
 }
 
 .icon_nav {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0px auto;
   width: inherit;
 }
     
@@ -731,3 +752,25 @@ label {
 
 
 
+
+#menu-title {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.menu-title {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.menu-blurb {
+    width: 50%;
+    min-width: 312px;
+    height: 50%;
+    min-height: 350px;
+    background-color: red;
+    display: inline-block;
+}
