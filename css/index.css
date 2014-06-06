@@ -15,6 +15,7 @@ h1, h2{
     font-family: 'Lato';
     text-align: center;
     color: #d9c8a4;
+    font-weight: 200;
 }
 
 h3, h4, h5, h6 {
@@ -457,6 +458,7 @@ ul#nav-ul {
   text-align: center;
   font-size: 20px;
   color: white;
+  font-weight: 100;
 }
 
 #contact-text-container{
@@ -644,13 +646,10 @@ background-color:black;
     
 /*CSS for contact form*/
 #page-wrap {
-
   width: 660px;
   padding: 20px 50px 20px 50px;
-  margin: 20px auto;
-  min-height: 500px;
-  height: auto !important;
-  height: 500px;
+  margin: 70px auto;
+  height: 400px;
   width: 66%;
   background: #333;
   opacity: .85;
@@ -666,18 +665,19 @@ background-color:black;
 }
 
 #contact-left{
-    width: 50%;
+    width: 40%;
     min-width: 400px;
     float: left;
+    height: 100%;
 }
 
 #contact-right{
-    width: 50%;
+    width: 40%;
     min-width: 400px;
     float: right;
     height:100%;
-    min-height: 700px;
     text-align: center;
+    margin-left: 30px;
 }
 
 #contactlestats{
@@ -685,8 +685,6 @@ background-color:black;
 }
 #contact-area {
   width: 500px;
-  margin-top: 5px;
-  padding: 20px 10px 20px 0px;
   min-height: 500px;
   height: auto !important;
   font-family: 'Lato';
@@ -772,5 +770,17 @@ label {
     height: 50%;
     min-height: 350px;
     background-color: red;
-    display: inline-block;
+    display: 
+}
+
+h2 {
+    
+}
+
+.comments {
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: left;
+    color: #d9c8a4;
 }
