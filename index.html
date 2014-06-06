@@ -44,8 +44,13 @@
 
       <!--FOOTER-->
       <div id="footer-container">
+<<<<<<< HEAD
          <div id="footerbutton" onMouseover="toggleFooter()">
           <a href="" id="font">LOCATIONS [+]</a>
+=======
+         <div id="footerbutton">
+            <a href="#" id="font">[+] LOCATIONS</a>
+>>>>>>> b674302ccf6b0840be0808afa15d0bbd0ec04b65
          </div>
          <div id="footer" style="display:none">
                   <div id="parksfooter">
@@ -81,14 +86,12 @@
 $(document).ready(function() {
     $('#homepage-logo-img').delay(20000).fadeIn(1500);
 });
-
-// Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
-function toggleFooter () {
-  $("#footer").slideToggle({
-    direction: "up"}, 300);
-  };
-    
-
+</script>
+<script>
+    $('#font').click(function() {
+        $('#footer').slideToggle(300);
+        return false;
+    });
 </script>
 
 </body>
