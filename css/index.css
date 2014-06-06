@@ -5,6 +5,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato';
+    font-weight: 200;
 }
 
 body {
@@ -135,7 +137,7 @@ p {
     width: 100%;
     min-width: 600px;
     height: 10%;
-    min-height: 50px;
+    min-height: 45px;
     background-color: black;
     opacity: 0.6;
     text-align: center;
@@ -492,10 +494,12 @@ ul#nav-ul {
 #menu-left{
     width: 50%;
     min-width: 625px;
-    float: left;
     background-image: url('../img/sprinkles.png');
+    min-height: 700px;
     height: 100%;
     position: absolute;
+    left: 0;
+    z-index: 100;
 }
 
 #menu-left-pattern{
@@ -554,7 +558,8 @@ ul#nav-ul {
 #menu-right{
     width: 50%;
     min-width: 625px;
-    float: right;
+    position: absolute;
+    right:0;
 }
 
 .menuimage_1 img, .menuimage_2 img {
@@ -756,9 +761,9 @@ label {
 
 #menu-title {
     font-size: 50px;
-    color: black;
+    color: #333;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -10px;
     margin-bottom: 20px;
 }
 
@@ -773,7 +778,8 @@ label {
     height: 50%;
     min-height: 350px;
     background-color: #333;
-    display: 
+    display: inline-block;
+    float: left;
 }
 
 h2 {
@@ -786,4 +792,17 @@ h2 {
     margin-left: 30px;
     text-align: left;
     color: #d9c8a4;
+}
+
+.drink_text, .food_text {
+    position:relative;
+    top: 50px;
+    left:0;
+    right: 0;
+    visibility:hidden;  
+}
+
+#gotodrinks {
+    text-decoration: none;
+    margin-left: 30px;
 }
