@@ -646,16 +646,17 @@ background-color:black;
     
 /*CSS for contact form*/
 #page-wrap {
-  width: 660px;
+  width: 800px;
   padding: 20px 50px 20px 50px;
-  margin: 70px auto;
+  margin: 70px auto 70px auto;
+  position: absolute;
   height: 400px;
-  width: 66%;
   background: #333;
   opacity: .85;
   color:white;
   font-family: 'Lato', serif;
-
+  left: 0;
+  right: 0;
 }
 
 #contact-wrap {
@@ -669,22 +670,24 @@ background-color:black;
     min-width: 400px;
     float: left;
     height: 100%;
+    display: inline;
 }
 
 #contact-right{
     width: 40%;
     min-width: 400px;
-    float: right;
+    float: left;
     height:100%;
     text-align: center;
     margin-left: 30px;
+    display: inline;
+    position: absolute;
 }
 
 #contactlestats{
   margin-top; 20px;
 }
 #contact-area {
-  width: 500px;
   min-height: 500px;
   height: auto !important;
   font-family: 'Lato';
@@ -692,11 +695,11 @@ background-color:black;
 
 #contact-area input, #contact-area textarea {
   padding: 2px;
-  width: 300px;
   font-family: 'Lato', serif;
   font-size: 1em;
-  margin: 0px 0px 10px 0px;
+  margin: 5px 5px;
   border: 2px solid #ccc;
+  width: 250px;
 }
 
 #contact-area label{
@@ -769,7 +772,7 @@ label {
     min-width: 312px;
     height: 50%;
     min-height: 350px;
-    background-color: red;
+    background-color: #333;
     display: 
 }
 
