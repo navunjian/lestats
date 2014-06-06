@@ -13,6 +13,10 @@ body {
   
 }
 
+.krakatoa{
+    display:none;
+}
+
 h1, h2{
     font-family: 'Lato';
     text-align: center;
