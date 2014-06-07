@@ -840,6 +840,11 @@ label {
   margin:10px auto;
 }
 
+.recimg {
+  width:220px;
+  height:80px;
+}
+
 #menu-title {
     font-size: 50px;
     color: #333;
