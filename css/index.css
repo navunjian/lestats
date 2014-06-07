@@ -137,10 +137,6 @@ p {
     z-index: -100;
 }
 
-.active{
-  color: #7A2626;
-}
-
 #homepage-pattern{
     background: url('http://d1fki99wqld33s.cloudfront.net/assets/net.png') repeat scroll 0% 0% transparent;
     background-color: transparent;
@@ -354,7 +350,7 @@ p {
   font-family: 'Lato';
     text-align: center;
     color: #000000;
-    font-weight: 100;
+    font-weight: 300;
     opacity: 1.0;
     letter-spacing: 2px;
     font-size: 100px;
@@ -611,7 +607,7 @@ p {
     margin-left: 30px;
     text-decoration: none;
     list-style: none;
-    line-height: 21px;
+    line-height: 20px;
 }
 
 #menu-names-tea li{
@@ -741,7 +737,7 @@ p {
   padding: 20px 50px 20px 50px;
   margin: 70px auto 70px auto;
   position: absolute;
-  height: 400px;
+  height: 435px;
   background: #333;
   opacity: .85;
   color:white;
