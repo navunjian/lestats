@@ -167,7 +167,7 @@ p {
     text-align: center;
 }
 
-ul#nav-ul {
+#nav-ul ul {
     list-style: none;
     padding:0;
     margin:0 auto;
@@ -526,7 +526,7 @@ ul#nav-ul {
     width: 50%;
     min-width: 625px;
     background-image: url('../img/sprinkles.png');
-    min-height: 700px;
+    min-height: 705px;
     height: 100%;
     position: absolute;
     left: 5%;
@@ -570,7 +570,7 @@ ul#nav-ul {
 #menu-single li, #menu-double li, #menu-grande li{
     font-family: 'Lato';
     font-weight: 100;
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 30px;
     text-decoration: none;
     list-style: none;
@@ -580,7 +580,7 @@ ul#nav-ul {
 #menu-single-brk li {
     font-family: 'Lato';
     font-weight: 200;
-    font-size: 17px;
+    font-size: 16px;
     margin-right: 30%;
     text-decoration: none;
     list-style: none;
@@ -592,7 +592,7 @@ ul#nav-ul {
 #menu-single-cold li {
   font-family: 'Lato';
     font-weight: 100;
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 65%;
     text-decoration: none;
     list-style: none;
@@ -608,11 +608,25 @@ ul#nav-ul {
     line-height: 21px;
 }
 
+#menu-names-tea li{
+    font-weight: 300;
+    font-family: 'Lato';
+    font-size: 17px;
+    margin-left: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align:center;
+}
+
+#teablurb{
+  font-weight: 500;
+  font-size: 20px;
+}
 
 #menu-names-bfast li{
    font-weight: 300;
    font-family: 'Lato';
-   font-size: 17px;
+   font-size: 16px;
    text-decoration: none;
    list-style: none;
 
@@ -621,8 +635,7 @@ ul#nav-ul {
 #menu-names-tea li{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 17px;
-
+    font-size: 16px;
     margin-left: 0px;
     text-decoration: none;
     list-style: none;
@@ -915,7 +928,7 @@ h2 {
 .sandec{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic;
     list-style: none;
     width: 300px;
