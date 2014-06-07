@@ -482,7 +482,6 @@ ul#nav-ul {
   margin: 0 auto;
   font-size: 40pt;
   font-family:'Lato', serif;
-  text-align: center;
 }
 
 .shotcontainer{
@@ -535,12 +534,11 @@ ul#nav-ul {
 
 #menu-names{
     width: 40%;
-     padding: 0px;
-    height: 30px;
-    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
     display: inline-block;
-    float: left;
     text-align: left;
+    float: left;
 }
 
 
@@ -577,7 +575,7 @@ ul#nav-ul {
 #menu-names li{
     font-weight: 300;
      font-family: 'Lato';
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 30px;
     text-decoration: none;
     list-style: none;
@@ -586,18 +584,16 @@ ul#nav-ul {
 #menu-names-bfast li{
    font-weight: 300;
    font-family: 'Lato';
-   font-size: 18px;
+   font-size: 16px;
    text-decoration: none;
    list-style: none;
-   text-align: center;
-   padding: 0px 100px 0px 100px;
 
 }
 
 #menu-names-tea li{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 0px;
     text-decoration: none;
     list-style: none;
@@ -903,7 +899,7 @@ h2 {
 .sandec{
     font-weight: 300;
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 12px;
     font-style: italic;
     list-style: none;
     width: 300px;
@@ -941,3 +937,21 @@ h2 {
 #selection-title {
     font-weight: 300;
 }
+
+#menu-short {
+     width: 60%;
+     padding: 0px;
+    height: 30px;
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
