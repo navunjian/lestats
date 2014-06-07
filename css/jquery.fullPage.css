@@ -5,14 +5,18 @@
  *
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
-html, body {
-    margin: 0;
-    padding: 0;
-	overflow:hidden;
-    background-image:url("../img/grayback.png");
-    background-image:repeat;
+
+ html{
+    overflow:hidden;
+ }
+
+body {
+    overflow:hidden;
+    background-image:url("../img/events/lestatsevents.jpg") no-repeat transparent;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-top:0;
 }
+
 #superContainer {
     height: 100%;
     position: relative;
@@ -83,12 +87,12 @@ html, body {
 .controlArrow.prev {
     left: 15px;
     border-width: 20px 14px 20px 0;
-    border-color: transparent gray transparent transparent;
+    border-color: transparent wheat transparent transparent;
 }
 .controlArrow.next {
     right: 15px;
     border-width: 20px 6px 20px 14px;
-    border-color: transparent transparent transparent gray;
+    border-color: transparent transparent transparent wheat;
 }
 .scrollable {
     overflow: scroll;

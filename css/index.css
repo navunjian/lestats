@@ -9,12 +9,10 @@
     font-weight: 200;
 }
 
-body {
-  
-}
 
 
-h1, h2{
+
+h1, h2 {
     font-family: 'Lato';
     text-align: center;
     color: #d9c8a4;
@@ -39,13 +37,17 @@ h3 {
 
 h4 {
     font-size: 18px;
-    text-align: left;
+    text-align: center;
+    margin:0 auto;
+    color:white;
 }
 
 h5
 {
   font-size: 17px;
-
+  text-align: center;
+  margin:0 auto;
+  color:white;
 }
 
 p {
@@ -82,6 +84,20 @@ p {
     z-index: -100;
 }
 
+#timeanddate{
+  color:black;
+  font-family:'Lato';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#artists{
+  color:black;
+  font-family:'Lato';
+  font-size: 20px;
+  font-weight: 700;
+}
+
 #events-bg{
     background-image: url('../img/lestatsevents.jpg');
     background-repeat: no-repeat;
@@ -91,6 +107,14 @@ p {
     position: fixed;
     margin: 0px;
     z-index: -100;
+}
+
+#eventstitle {
+  min-width:1300px;
+  color:wheat;
+  font-family:'Lato';
+  font-size: 30px;
+  font-weight: 300;
 }
 
 #contact-bg{
@@ -581,6 +605,7 @@ ul#nav-ul {
     margin-left: 30px;
     text-decoration: none;
     list-style: none;
+    line-height: 21px;
 }
 
 
@@ -685,19 +710,6 @@ ul#nav-ul {
   text-align: center;
 }
 
-#menu_left_img {
-margin:0 auto;
-width:150px;
-height:100%;
-background-color:black;
-}
-
-#menu_rt_img {
-width:150px;
-margin:0 auto;
-height:100%;
-background-color:black;
-}
 
 .icon_nav {
   margin: 0px auto;
@@ -830,14 +842,14 @@ label {
 
 .row {
   margin:0 auto;
-  width: 81%;
+  width:90%;
 }
 
 .recbody {
   width:220px;
-  background: #252527; 
+  background: white; 
   height: 240px;
-  margin:10px auto;
+  margin:5px auto;
 }
 
 .recimg {
