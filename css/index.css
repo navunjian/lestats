@@ -502,12 +502,12 @@ ul#nav-ul {
     width: 50%;
     min-width: 625px;
     background-image: url('../img/sprinkles.png');
-    min-height: 705px;
+    min-height: 710px;
     height: 100%;
     position: absolute;
     left: 5%;
     z-index: 100;
-    margin: 30px auto;
+    margin: 25px auto;
 }
 
 #menu-left-pattern{
@@ -543,7 +543,7 @@ ul#nav-ul {
 
 
 
-#menu-single li, #menu-double li, #menu-grande li{
+#menu-single li, #menu-double li, #menu-grande li, #menu-single-cold li{
     font-family: 'Lato';
     font-weight: 100;
     font-size: 16px;
@@ -565,11 +565,11 @@ ul#nav-ul {
 }
 
 
-#menu-single-cold li {
-  font-family: 'Lato';
-    font-weight: 100;
+#menu-names-cold li{
+    font-weight: 300;
+    font-family: 'Lato';
     font-size: 16px;
-    margin-left: 65%;
+    margin-left: 30px;
     text-decoration: none;
     list-style: none;
 }
@@ -869,6 +869,7 @@ label {
     position: relative;
     margin: -5px;
     border: 5px white solid;
+    position: relative;
 }
 
 h2 {
@@ -926,6 +927,7 @@ h2 {
     float: left;
     border: 5px white solid;
     margin: -5px;
+    position: relative;
 }
 
 #roast-text {
@@ -959,3 +961,35 @@ h2 {
 
 
 
+
+
+
+#menu-captions {
+    position: absolute;
+    bottom: 10px;
+    color: #648C8B;
+    text-align: right;
+    right: 10px;
+    font-weight: 300;
+    background-color: #333;
+}
+
+#menu-names-cold {
+    width: 30%;
+    padding: 0px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    min-width: 191px;
+}
+
+#menu-single-cold {
+    width: 15%;
+    padding: 0px;
+    height: 30px;
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
