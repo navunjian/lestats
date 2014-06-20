@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tea List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="css/index.css">
+  <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/lightbox-2.6.min.js"></script>
+  <script language="javascript">
+    hotdrinks = new Image(700,175);
+    hotdrinks.src = "./img/hothover.png";
+    colddrinks = new Image(700,175);
+    colddrinks.src = "./img/coldhover.png";
+    specialty = new Image(700,175);
+    specialty.src = "./img/specialdrink.png";
+    tea = new Image(700,175);
+    tea.src = "./img/teadrink.png";
+    og = new Image(700,175);
+    og.src = "./img/main_nav.png";
+  </script>
+  <script language="javascript">
+    function hothover() {
+    document.emp.src = hotdrinks.src; return true;
+    }
+    function coldhover() {
+    document.emp.src = colddrinks.src; return true;
+    }
+    function specialhover() {
+    document.emp.src = specialty.src; return true; 
+    }
+    function teahover() {
+    document.emp.src = tea.src; return true; 
+    }
+    function original() {
+    document.emp.src = og.src; return true; 
+    }
+  </script> 
+</head>
+
+  <body style="background: url('http://d1fki99wqld33s.cloudfront.net/assets/net.png') repeat scroll 0% 0% transparent; background: url('img/beautifuladams.jpg');">
+
+   <div id="top-nav">
+          <div id="nav_container">
+              <ul id="nav-ul">
+                <li><a href="/index">HOME</a></li>
+                <li><a href="/menu">MENU</a></li>
+                <li><a href="/events">EVENTS</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+              </ul>
+          </div>
+    </div>
+      
+      <!--menu left-->
+    <div id="menu-left">
+        <div class="icon_nav_container">
+      <img class="icon_nav" name="emp" SRC="./img/main_nav.png" USEMAP="#hovnav">
+        <map id="#hovnav" name="hovnav">
+          <area shape="rect" alt="hotdrink" onFocus= "blur()" onMouseOver= "hothover()" onMouseOut="original()" coords="23,49,131,122" href="hotdrinks"  />
+          <area shape="rect" alt="colddrink" onFocus= "blur()" onMouseOver= "coldhover()" onMouseOut="original()" coords="172,47,284,123" href="colddrinks" />
+          <area shape="rect" alt="specialty" onFocus= "blur()" onMouseOver= "specialhover()" onMouseOut="original()"coords="330,42,449,123" href="specialties" />
+          <area shape="rect" alt="tealist" onFocus= "blur()" onMouseOver= "teahover()" onMouseOut="original()" coords="483,63,594,123" href="tealist" />
+        </map>
+        </div>
+    <h4 id="menu-title">TEA LIST</h4>
+    <div class ="menucontent">
+        
+        <div id="menu-names-tea">
+        <ul>
+            <li><br></li>
+
+            <li><span id="teablurb">Single, Double, and Grande | 2.25</span></li>
+
+            <li><br></li>
+            <li>English Breakfast</li>
+            <li>Ceylon</li>
+            <li>Earl Grey</li>
+            <li>Passion Fruit</li>
+            <li>Chai</li>
+            <li>Vanilla</li>
+            <li>Chamomile</li>
+            <li>Blood Orange</li>
+            <li>Eucomint</li>
+            <li>Berry Patch</li>
+            <li>Peppermint</li>
+            <li>Rooibos</li>
+            <li>Green Tea</li>
+            <li>Jasmine Tea</li>
+            <li>Oolong Tea</li>
+            <li>White Hot Chocolate</li>
+            </ul>
+        </div>
+        
+        </div>
+      </div>
+        
+
+        <!--menu right-->
+    <div id="menu-right">
+
+         <div class="menu-blurb-2" style="background-image: url('img/tea1.jpg'); background-size: cover"></div>
+        <div class="menu-blurb-2" style="background-image: url('img/tea2.jpg'); background-size: cover"></div>
+
+    </div>
+    
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+
+</body>
+</html>
